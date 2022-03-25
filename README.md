@@ -25,4 +25,4 @@ Here are some of the methods I used to fill missing values:
 
 I then tested various models and found that a Random Forest Classifier produced the best results with an accuracy of 0.844 on the train data (cross validation: 0.861, 0.722, 0.833, 0.833, 0.886). My model's predictions on the test data produced a score of 0.75837 when submitted to the competition. This corresponds to the top 84%.
 
-A copy of the submitted notebook can be found on [github](Kaggle/titanic-machine-learning-from-disaster.ipynb) and on [Kaggle](https://www.kaggle.com/code/amyhewitt/titanic-machine-learning-from-disaster/).
+A copy of the submitted notebook can be found on [GitHub](Kaggle/titanic-machine-learning-from-disaster.ipynb) and on [Kaggle](https://www.kaggle.com/code/amyhewitt/titanic-machine-learning-from-disaster/).
