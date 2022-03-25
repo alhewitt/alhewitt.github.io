@@ -12,3 +12,17 @@ At this point I became aware of Kaggle, which hosts machine learning competition
 
 ### [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
 I began by following the first course, Intro to Machine Learning. This tutorial walks you through using decision trees to model the price of a house based off various factors. It covers overfitting and how the maximum number of leaf nodes affects things, then introduces random forest as a method of reducing MAE (mean absolute error). In the end, my results are submitted to the competition where they recieved a score of 21217.91640 (MAE). The notebook which was submitted can be found [here](Kaggle/Intro_to_Machine_Learning.ipynb).
+
+### [Titanic](https://www.kaggle.com/competitions/titanic/overview)
+I then decided to attempt uploading to a competition from scratch. I chose the titanic competition as it is very beginner friendly and has plenty of guides. After reading through a few attempts made by other people, I gave it a go. The competition involves predicting whether passengers died or survived based on various information like their name, ticket fare, class, age, whether they had other family on board etc. There were several missing variables which I tried to fill in rather than delete rows as there wasn't a huge amount of data to start with. 
+
+Here are some of the methods I used to fill missing values:
+ - The cabin has a lot of missing values and there are several missing ages. I will remove the cabin column since it is unlikely to be very informative with the majority of data being missing.
+- Due to the "women and children first" order, the age may be very informative and so I did not want to remove it completely. I used averages for each title (Mr, Mrs, Miss etc) to fill in the missing ages.
+- The ticket number was be dropped as it is not informative. Cabin was majority empty values so was deleted.
+- For Embarked, I filled in the missing data using the price of the type of ticket purchased.
+- And for the missing fare, I filled in the data using the ticket type and place of embarkment.
+
+I then tested various models and found that a Random Forest Classifier produced the best results with an accuracy of 0.844 on the train data (cross validation: 0.861, 0.722, 0.833, 0.833, 0.886). My model's predictions on the test data produced a score of 0.75837 when submitted to the competition. This corresponds to the top 84%.
+
+The notebook can be found [here](Kaggle/titanic-machine-learning-from-disaster.ipynb).
