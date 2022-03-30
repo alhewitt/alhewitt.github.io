@@ -7,16 +7,16 @@ I am an Astrophysics PhD student at the University of Lancaster. My work involve
 
 ## Education
 - PhD Astrophysics at Lancaster University 
-  - 2020 - present
+  - 2020 -- present
 - MPhys Physics with Astrophysics at University of Exeter 
-  - 2016 - 2020
+  - 2016 -- 2020
   - 1st Class (Hons)
 
 ## Research Experience
 
 - Searching for Gravitational Waves from Pulsars
   - PhD project
-  - Oct 2020 - present
+  - Oct 2020 -- present
   - Lancaster University
 - Modelling Interacting Galaxies
   - MPhys project
