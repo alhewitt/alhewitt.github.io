@@ -33,12 +33,4 @@ I am an Astrophysics PhD student at the University of Lancaster. My work involve
 
 ## Publications
 
-@ARTICLE{Finley2019,
-AUTHOR={Adam J. Finley and Amy L. Hewitt and Sean P. Matt and Mathew Owens and Rui F. Pinto and Victor Réville},
-TITLE={Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft},
-JOURNAL={Astrophysical Journal},
-VOLUME= {},
-ISSUE = {},
-PAGES= {},
-YEAR={2019}
-}
+Finley, Adam J. et al. (2019). “Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft”. In: *Astrophysical Journal.*
