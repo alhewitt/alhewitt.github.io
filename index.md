@@ -2,7 +2,5 @@
 layout: default
 ---
 
-# Amy L Hewitt
-
-## About me
+# About me
 I am an Astrophysics PhD student at the University of Lancaster. My work involves searching for gravitational waves from pulsars. TESTING
