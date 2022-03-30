@@ -1,6 +1,8 @@
+---
 layout: default
 title: Gravitational Waves
 rank: 2
+---
 
 # Gravitational Waves
 
