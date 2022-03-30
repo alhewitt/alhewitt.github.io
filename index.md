@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Amy L Hewitt
 
 ## About me
