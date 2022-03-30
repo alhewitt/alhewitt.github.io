@@ -1,3 +1,9 @@
+---
+layout: default
+title: Me
+rank: 1
+---
+
 # Pulsars
 
 Pulsars are the rigid, dense stellar remnants left over after a star between 1.4 and 3 solar masses goes supernova. 
