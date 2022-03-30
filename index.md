@@ -33,4 +33,4 @@ I am an Astrophysics PhD student at the University of Lancaster. My work involve
 
 ## Publications
 
-Finley, Adam J. et al. (2019). “Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft”. In: *Astrophysical Journal.*
+Finley, Adam J. et al. (2019). “Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft”. In: *Astrophysical Journal.* [[Link]](https://arxiv.org/abs/1910.10177)
