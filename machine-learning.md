@@ -5,7 +5,7 @@ rank: 3
 ---
 
 # Machine Learning
-This page contains my first attempts at doing small machine learning projects in order to get familiar with it.
+While looking at internships that I might find interesting to do during my PhD, I found several which involved machine learning. This was something I had attended talks and [workshops](https://astrostatistics.psu.edu/su21/index.html) on before but never really considered having a proper go at. I decided to start learning, choosing to focus on implementation rather than theory to begin with. This page shows my journey into the wonderful world of machine learning.
 
 ## [Iris](https://github.com/alhewitt/alhewitt.github.io/blob/main/Iris/Iris.ipynb)
 My first project is supposedly the "Hello World!" of machine learning. Following the walkthrough [here](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/), I trained several algorithms on a dataset containing Iris flower characteristic and species using stratified 10-fold cross validation. Then, the best algorithm (chosen using precision) was tested using a 20% slice of the original dataset which had been withheld from it during training. The result is the SVM (Support Vector Machines) algorithm with an accuracy of 0.97.
@@ -29,6 +29,6 @@ Here are some of the methods I used to fill missing values:
 - For Embarked, I filled in the missing data using the price of the type of ticket purchased.
 - And for the missing fare, I filled in the data using the ticket type and place of embarkment.
 
-I then tested various models and found that a Random Forest Classifier produced the best results with an accuracy of 0.844 on the train data (cross validation: 0.861, 0.722, 0.833, 0.833, 0.886). My model's predictions on the test data produced a score of 0.75837 when submitted to the competition. This corresponds to the top 84%.
+I then tested various models and found that a Random Forest Classifier produced the best results with an accuracy of 0.844 on the train data (cross validation: 0.861, 0.722, 0.833, 0.833, 0.886). My model's predictions on the test data produced a score of 0.75837 when submitted to the competition. This corresponds to the top 84%. I look forward to coming back to this project after learning more and seeing how much I can improve.
 
 A copy of the submitted notebook can be found on [GitHub](https://github.com/alhewitt/alhewitt.github.io/blob/main/Kaggle/titanic-machine-learning-from-disaster.ipynb) and on [Kaggle](https://www.kaggle.com/code/amyhewitt/titanic-machine-learning-from-disaster/).
