@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Me
+title: Pulsars
 rank: 1
 ---
 
