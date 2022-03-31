@@ -17,3 +17,5 @@ But why care? Various possible equations of state give different upper limits on
 Now I hope you can see why it might be a good idea to look for these GW signals, and that is exactly what we did. We looked at data from the O2 and O3 observing runs of LIGO-Virgo in what is an updated version of a search performed on O1 and O2 data previously. There are various types of searches… FILL THIS IN.
 
 GWs from 236 pulsars were searched for, with 74 of these pulsars having not been included in the previous search. 168 of these pulsars are in binary systems and 161 pulsars are millisecond pulsars. Time domain Bayesian analysis was performed on all pulsars searching for signals at 2x and both 1x and 2x the rotation frequency. In the absence of a detection, we present 95% confidence upper limits for the GW amplitude or “strain”.
+
+[back](https://alhewitt.github.io/)
