@@ -72,6 +72,62 @@ Here $$\Omega_*$$ is the solar rotation rate, $$2.6\times10^{-6}$$ rads$$^{-1}$$
 
 This value for the torque can then be compared to that produced via the other three methods, and with the result from the *Wind* data arrived at in this report. Previously, a value of $$2.28\times10^{30}$$ erg was obtained using data from the Ulysses and ACE spacecrafts by Finley et al., 2018.
 
+## Data Analysis
+
+### Coordinate Transformations
+The particle and field data from *Wind* is initially given in Geocentric Solar Ecliptic (GSE) coordinates, a cartesian system which defines the x-axis as the direction of the Sun from Earth, the z-axis as the Earth's ecliptic north pole, and the y-axis as perpendicular to both such that it forms a right handed coordinate system.
+
+In order to measure the solar angular momentum flux, however, it is convenient to use Radial, Tangential, Normal (RTN). This is a heliocentric cartesian coordinate system defining X as the line connecting the Sun to the spacecraft, Y as the cross product of the solar rotational axis and X, and Z as perpendicular to both.
+
+### Removing Erroneous Data
+
+| Flags | their meanings |
+|---|---|
+|10 | Solar wind parameters OK - no action necessary |
+|9 | Alpha particles are relatively too cold |
+|8 | Alpha particles overlap within protons in current distribution function |
+|7 | Alphas too fast, out of SWE range |
+|6 | Alpha particle peak may be confused with second proton peak |
+|5 | Parameters OK, but Tp=Ta constraint used (params obtained with SUB\_PROT=1) |
+|4 | Alphas are unusually cold, Tp=Ta constraint used (SUB\_PROT=1) |
+|3 | Alphas are relatively too hot (SUB\_PROT=1). Tp=Ta constraint used |
+|2 | Alphas are unusually slow |
+|1 | Poor peak identification |
+|0 | Spectrum cannot be fit with a bimax model. May be strongly non-Maxwellian or may contain a discontinuity |
+
+
+Not all data from the \textit{Wind} spacecraft was usable. First, there were many empty values, denoted by an impossible value such as 99999.99 or similar, which had to be removed. If either a component of proton velocity or density was empty, the complete set of data for that observation time was removed. This was because the angular momentum calculation required all the proton values to be correct. Alpha particle values were more frequently empty, and when this was the case the proton data was saved, removing only the alpha velocities and density.
+
+Next, the data had to be filtered according to the flags, described in \tabref{tab:flags}. The alpha particles were prone to issues and the focus of most of the flags. Therefore, the alpha data was removed if it did not correspond with a flag of 10, meaning the parameters were fine. For the protons, most of the flags had little effect. Only data with flags of 1 or 0 had to be removed. If this was not done, the angular momentum loss was often negative, especially during solar minimums.
+
+The removal of most alpha particle data is an issue. In order to obtain a value for the total angular momentum flux at any moment, values for all components are needed. The fact that the data was flagged does not mean there is no alpha component, so a method for reintroducing alpha particles into the data is needed. Since most issues with the alpha particles are due to their peaks being difficult to separate from those of the protons, it is assumed that their speeds were similar. Thus, their velocities are approximated to be equal to those of the proton data at that time. Alpha number densities are approximated to $4\%$ of that of the protons (Borrini et al., 1983).
+
+\subsection{Interplanetary Coronal Mass Ejections}
+\label{ICMEs}
+
+\begin{figure}[htb]{}
+\includegraphics[width=90mm]{ICMEs.png}
+\caption{Number of ICMEs per Carrington rotation according to the Cane and Richardson ICME list. Periods of high ICMEs counts correspond to solar maxima (2001, 2014), while minima (1996, 2009) have very few events.}
+\label{fig:ICMEs}
+\end{figure}
+
+The aim of this project is to obtain a value of the solar angular momentum loss due to field stresses and the ambient solar wind. Interplanetary Coronal Mass Ejections (ICMEs) are bursts of plasma originating from an event on the Sun's corona. They are expected to have little effect on the global angular momentum loss, and since they are a type of local fluctuation, they should be removed from the data. [ANY MORE REASONS WHY?]
+
+Initially, ICMEs are removed from by placing upper limits on the particle densities and magnetic field strengths. If the proton density at a certain time exceeded this value, none of the values at that time are included in the averages. The first value attempted is a limit of 10 nT for the field and 10 m$^{-3}$ for the proton and alpha number densities.
+
+This method appears to be removing too much of the data however, so the Cane and Richardson ICME list is used instead. The number of ICMEs per Carrington according to this list can be seen in \figref{fig:ICMEs} The list gives the start times of the shock and the end times of the trailing edge of each ICME since May 1996, so data taken between any of these two times is removed.
+
+For the period which is not covered by the Cane and Richardson ICME list, another method of filtering the data is required. By comparison by eye of different conditions to the data with the ICMEs removed according to the list, a best fit is obtained; 30 nT for the field and 70 m$^{-3}$ for the proton and alpha densities.
+
+\subsection{Averaging the Data}
+\label{CR}
+
+A Carrington rotation (CR) is the length of time it takes for a sunspot to travel the circumference of the Sun and return to its original location as viewed from the Earth. It is roughly 27 days long, meaning there are 13 of them in a year.
+
+Raw data from \textit{Wind} has a varying cadence of around 2 minutes, though this can vary massively. Carrington rotation averages are taken so that each value would represent an average across the whole solar equator. From this value, a profile for the Sun can be used to obtain an average value across the whole solar surface.
+
+Averages are taken after calculations with the values were made at the 2 minute cadence. If, once data had been processed according to the methods above, there are fewer than 10,000 data points in one Carrington rotation (around 50\% of the data points remaining), that rotation is removed and not plotted.
+
 <p align="center">
   <figure><img src="assets/img/solar/MassLoss.png" alt="MassLoss.png"/>
   <figcaption>**Figure 1:** Mass flux calculated using equation (5). Proton and alpha contributions are plotted in blue and red respectively, with the total mass flux in dashed black.The solid black line is a 13 CR running average of this total. Teal is the open flux, which reflects the solar activity level.</figcaption></figure>
