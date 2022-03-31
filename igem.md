@@ -24,8 +24,9 @@ $$
 Reduction of perchlorate into chlorite.
 
 $$
-\text{ClO}_4^-+2\text{AH}_2\xrightarrow{\text{PcrABCD}}\text{ClO}_2^-+2\text{H}_2\text{O}
+\text{ClO}_2^-\xrightarrow{\text{Cld}}\text{Cl}^-+\text{O}_2
 $$
+Reduction of chlorite into oxygen.
 
 
 
