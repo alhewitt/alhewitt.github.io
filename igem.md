@@ -15,6 +15,9 @@ Martian soil (more formally known as regolith) contains an abundance of a chemic
 $$
 ClO_4^-+2AH_2\xrightarrow{\text{PcrABCD}}ClO_2^-+2H_2O
 $$
+$$
+\text{ClO}_4^-+2\text{AH}_2\xrightarrow{\text{PcrABCD}}\text{ClO}_2^-+2\text{H}_2\text{O}
+$$
 
 ## Bioreactor
 
