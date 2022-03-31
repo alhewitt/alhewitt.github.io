@@ -26,11 +26,18 @@ Reduction of perchlorate into chlorite.
 $$
 \text{ClO}_2^-\xrightarrow{\text{Cld}}\text{Cl}^-+\text{O}_2
 $$
+
 Reduction of chlorite into oxygen.
 
+This it really very convenient! We can design a bioreactor with two-fold applications.
+ 1. It can remove toxic perchlorate from Martian soil
+ 2. It can break down that perchlorate into breatheable oxygen
 
+Now all we have to do is design it.
 
 ## Bioreactor
+
+
 
 <p align="center">
   <figure><img src="assets/img/igem/T--Exeter--BioR100.png" alt="BioR100.png" width="30%"/>
