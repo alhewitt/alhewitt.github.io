@@ -99,13 +99,13 @@ Not all data from the *Wind* spacecraft was usable. First, there were many empty
 
 Next, the data had to be filtered according to the flags, described in the table above. The alpha particles were prone to issues and the focus of most of the flags. Therefore, the alpha data was removed if it did not correspond with a flag of 10, meaning the parameters were fine. For the protons, most of the flags had little effect. Only data with flags of 1 or 0 had to be removed. If this was not done, the angular momentum loss was often negative, especially during solar minimums.
 
-The removal of most alpha particle data is an issue. In order to obtain a value for the total angular momentum flux at any moment, values for all components are needed. The fact that the data was flagged does not mean there is no alpha component, so a method for reintroducing alpha particles into the data is needed. Since most issues with the alpha particles are due to their peaks being difficult to separate from those of the protons, it is assumed that their speeds were similar. Thus, their velocities are approximated to be equal to those of the proton data at that time. Alpha number densities are approximated to $$4\%$$ of that of the protons (Borrini et al., 1983).
+The removal of most alpha particle data is an issue. In order to obtain a value for the total angular momentum flux at any moment, values for all components are needed. The fact that the data was flagged does not mean there is no alpha component, so a method for reintroducing alpha particles into the data is needed. Since most issues with the alpha particles are due to their peaks being difficult to separate from those of the protons, it is assumed that their speeds were similar. Thus, their velocities are approximated to be equal to those of the proton data at that time. Alpha number densities are approximated to 4% of that of the protons (Borrini et al., 1983).
 
 ### Interplanetary Coronal Mass Ejections
 
 <p align="center">
   <figure><img src="assets/img/solar/ICMEs.png" alt="ICMEs.png"/>
-  <figcaption>**Figure 1:** Number of ICMEs per Carrington rotation according to the Cane and Richardson ICME list. Periods of high ICMEs counts correspond to solar maxima (2001, 2014), while minima (1996, 2009) have very few events.</figcaption></figure>
+  <figcaption><b>Figure 1:</b> Number of ICMEs per Carrington rotation according to the Cane and Richardson ICME list. Periods of high ICMEs counts correspond to solar maxima (2001, 2014), while minima (1996, 2009) have very few events.</figcaption></figure>
 </p>
 
 The aim of this project is to obtain a value of the solar angular momentum loss due to field stresses and the ambient solar wind. Interplanetary Coronal Mass Ejections (ICMEs) are bursts of plasma originating from an event on the Sun's corona. They are expected to have little effect on the global angular momentum loss, and since they are a type of local fluctuation, they should be removed from the data. 
@@ -128,7 +128,7 @@ Averages are taken after calculations with the values were made at the 2 minute 
 
 <p align="center">
   <figure><img src="assets/img/solar/MassLoss.png" alt="MassLoss.png"/>
-  <figcaption>**Figure 2:** Mass flux calculated using equation (5). Proton and alpha contributions are plotted in blue and red respectively, with the total mass flux in dashed black.The solid black line is a 13 CR running average of this total. Teal is the open flux, which reflects the solar activity level.</figcaption></figure>
+    <figcaption><b>Figure 2:</b> Mass flux calculated using equation (5). Proton and alpha contributions are plotted in blue and red respectively, with the total mass flux in dashed black.The solid black line is a 13 CR running average of this total. Teal is the open flux, which reflects the solar activity level.</figcaption></figure>
 </p>
 
 
