@@ -13,3 +13,5 @@ These objects spin incredibly quickly as a result of angular momentum being cons
 A pulsar’s rapid rotation also causes the emission of EM radiation from their poles which, when seen from Earth, appear like pulses similar to a lighthouse. 
 
 As they are so incredibly small, often these pulses are all we can detect from them and as such, there is still a lot we don’t know about their interiors or equation of state. 
+
+[back](./)
