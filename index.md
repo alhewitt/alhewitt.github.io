@@ -18,7 +18,7 @@ I am an Astrophysics PhD student at the University of Lancaster. My work involve
   - PhD project
   - Oct 2020 -- present
   - Lancaster University
-- [Modelling Interacting Galaxies]()
+- [Modelling Interacting Galaxies](interacting-galaxies.md)
   - MPhys project
   - Jan 2019 -- June 2020
   - University of Exeter
