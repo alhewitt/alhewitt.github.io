@@ -5,6 +5,10 @@ layout: default
 # Project Perchlorate 
 
 <p align="center">
+  <figure><img src="assets/img/igem/T--Exeter--LogoWikiSmall.png" alt="ICMEs.png" width="30%"/>
+  <figcaption><b>Figure 1:</b> Number of ICMEs per Carrington rotation according to the Cane and Richardson ICME list. Periods of high ICMEs counts correspond to solar maxima (2001, 2014), while minima (1996, 2009) have very few events.</figcaption></figure>
+</p>
+<p align="center">
   <figure><img src="/assets/img/igem/T--Exeter--LogoWikiSmall.png" alt="ExeteriGEM.png" width="30%"/></figure>
 </p>
 
