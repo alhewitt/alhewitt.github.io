@@ -1,3 +1,7 @@
+---
+layout: basic
+---
+
 # Project Perchlorate 
 
 <p align="center">
