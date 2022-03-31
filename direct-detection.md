@@ -1,10 +1,6 @@
 ---
-layout: default
+layout: post
 ---
-
-body {
-  background-color: #ebebeb;
-}
 
 # Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft
 
