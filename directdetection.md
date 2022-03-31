@@ -9,3 +9,4 @@ In 1967, data from the two HELIOS spacecraft was used to produce an entirely exp
 I have used data from the *Wind* spacecraft to produce a new, experimental value for the angular momentum flux of the Sun. In this talk, I will go over the results of this project, discussing the effect of separating the solar wind into fast and slow streams, as well as separating the angular momentum carried by the protons, alpha particles and magnetic field stresses. In addition to the momentum flux, I will briefly discuss the mass loss and specific angular momentum per proton mass flux derived using the data.
 
 <img src="/assets/img/solar/massloss.png" alt="massloss.png">
+Results.
