@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 ---
 
 # Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft
