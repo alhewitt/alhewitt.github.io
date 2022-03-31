@@ -3,7 +3,7 @@ layout: default
 ---
 
 # About me
-I am an Astrophysics PhD student at the University of Lancaster. My work involves searching for gravitational waves from pulsars.
+I am an Astrophysics PhD student at the University of Lancaster. My work involves searching for gravitational waves from pulsars. When I'm not studying or working, I enjoy caving, hiking and climbing. 
 
 ## Education
 - PhD Astrophysics at Lancaster University 
