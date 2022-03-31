@@ -14,11 +14,11 @@ I am an Astrophysics PhD student at the University of Lancaster. My work involve
 
 ## Research Experience
 
-- [Searching for Gravitational Waves from Pulsars](knownpulsarpaper.md)
+- [Searching for Gravitational Waves from Pulsars](pages/knownpulsarpaper.md)
   - PhD project
   - Oct 2020 -- present
   - Lancaster University
-- [Modelling Interacting Galaxies](interacting-galaxies.md)
+- [Modelling Interacting Galaxies](pages/interacting-galaxies.md)
   - MPhys project
   - Jan 2019 -- June 2020
   - University of Exeter
