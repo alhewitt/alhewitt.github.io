@@ -22,7 +22,7 @@ I am an Astrophysics PhD student at the University of Lancaster. My work involve
   - MPhys project
   - Jan 2019 -- June 2020
   - University of Exeter
-- [Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft]()
+- [Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft](direct-detection.md)
   - Summer internship with AWESoME Stars
   - June 2019 -- Sept 2019
   - University of Exeter
