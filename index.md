@@ -26,7 +26,7 @@ I am an Astrophysics PhD student at the University of Lancaster. My work involve
   - Summer internship with AWESoME Stars
   - June 2019 -- Sept 2019
   - University of Exeter
-- [Project Perchlorate]()
+- [Project Perchlorate](igem.md)
   - Exeter iGEM (international Genetically Engineered Machines) 2018
   - June 2018 -- Oct 2018
   - University of Exeter
