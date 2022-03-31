@@ -24,7 +24,7 @@ This project aims to produce a value for the rate at which the Sun is losing ang
 
 The angular momentum flux of the Sun can be calculated theoretically. Magneto Hydrodynamic (MHD) models can be used to obtain a value, and there are many methods of doing so. One such method uses the open flux.
 
-The open flux, the flux along the open field lines in the solar magnetic field, can be related to the Alfv\'en radius. This is the radius at which the bulk velocity of the waves in the magnetic field equals the Alfv\'en velocity (Belenkaya et al., 2014). This radius is important, as mathematically, the stresses in the magnetic field exert the torque required to produce co-rotation at the Alfv\'en radius (Weber and Davis, 1967), though this does not happen physically. Knowing this distance, it is possible to calculate the torque on the Sun due to the magnetic stresses. 
+The open flux, the flux along the open field lines in the solar magnetic field, can be related to the Alfvén radius. This is the radius at which the bulk velocity of the waves in the magnetic field equals the Alfvén velocity (Belenkaya et al., 2014). This radius is important, as mathematically, the stresses in the magnetic field exert the torque required to produce co-rotation at the Alfvén radius (Weber and Davis, 1967), though this does not happen physically. Knowing this distance, it is possible to calculate the torque on the Sun due to the magnetic stresses. 
 
 Open flux is defined as
 \begin{equation}
@@ -32,10 +32,12 @@ Open flux is defined as
 \phi=\int\mathbf{B}\cdot d\mathbf{s}.
 \end{equation}
 By evaluating the integral over the surface of a sphere, the open flux can be calculated using
+
 \begin{equation}
 \label{eq:open-flux}
 \phi_{open}=4\pi \langle R^2 |B_r|_{hr} \rangle_{27 days},
 \end{equation}
+
 by assuming that the field lines at this radius will be predominantly open. The magnetic field is taken in one hour cadence in order to reduce small time-scale fluctuations before taking the modulus.
 
 Using this value, the magnetisation parameter can be calculated as
@@ -43,27 +45,29 @@ Using this value, the magnetisation parameter can be calculated as
 \label{eq:magnetisation}
 \Upsilon_{open} = \frac{\phi_{open}^2 / R_*^2}{\dot{M}v_{esc}},
 \end{equation}
-where $R_*$ is the solar radius ($6.96\times10^{10}$cm) and $v_{esc}=\sqrt{2GM_*/R_*}$ with $M_*$ being the solar mass $1.99\times10^{33}$ g. $\dot{M}$ represents the mass loss:
+where $$R_*$$ is the solar radius ($$6.96\times10^{10}$$cm) and $$v_{esc}=\sqrt{2GM_*/R_*}$$ with $$M_*$$ being the solar mass $$1.99\times10^{33}$$ g. $$\dot{M}$$ represents the mass loss:
 \begin{equation}
 \label{eq:mdot}
 \dot{M}=4\pi\langle R^2 v_r \rho\rangle_{27 days}.
 \end{equation}
 
-The magnetisation parameter can be used to obtain the average alfv\'en radius:
+The magnetisation parameter can be used to obtain the average alfvén radius:
+
 \begin{equation}
 \label{alfven}
 \frac{\langle R_A \rangle}{R_*} = K_o[\Upsilon_{open}]^{m_o},
 \end{equation}
+
 where $K_o=0.33$ and $m_o=0.371$ (Finley and Matt, 2018) which then allows the torque due to the solar wind to be calculated as
+
 \begin{equation}
 \label{eq:torque}
 \tau = \dot{M}\Omega_*R_*^2 \left( \frac{\langle R_A \rangle}{R_*} \right) ^2.
 \end{equation}
-Here $\Omega_*$ is the solar rotation rate, $2.6\times10^{-6}$ rads$^{-1}$.
 
-This value for the torque can then be compared to that produced via the other three methods, and with the result from the \textit{Wind} data arrived at in this report. Previously, a value of $2.28\times10^{30}$ erg was obtained using data from the Ulysses and ACE spacecrafts by Finley et al., 2018.
+Here $$\Omega_*$$ is the solar rotation rate, $$2.6\times10^{-6}$$ rads$$^{-1}$$.
 
-Another method using surface magnetograms produces $0.35\times10^{30}$ erg.
+This value for the torque can then be compared to that produced via the other three methods, and with the result from the *Wind* data arrived at in this report. Previously, a value of $$2.28\times10^{30}$$ erg was obtained using data from the Ulysses and ACE spacecrafts by Finley et al., 2018.
 
 <p align="center">
   <figure><img src="assets/img/solar/MassLoss.png" alt="MassLoss.png"/>
