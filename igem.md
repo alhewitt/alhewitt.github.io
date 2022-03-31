@@ -40,7 +40,7 @@ Now all we have to do is design it.
 The full design process for this bioreactor is documented [here](http://2018.igem.org/Team:Exeter/HP/Bioreactor) so I will give the abridged version.
 
 <p align="center">
-  <figure><img src="assets/img/igem/T--Exeter--BioR310.png" alt="BioR310.png" width="30%"/>
+  <figure><img src="assets/img/igem/T--Exeter--BioR310.png" alt="BioR100.png" width="30%"/>
   <figcaption><b>Figure 1:</b> The first iteration of the bioreactor.</figcaption></figure>
 </p>
 
