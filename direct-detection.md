@@ -8,6 +8,8 @@ layout: default
 
 I was lucky to be given the opportunity to work with [AWESoME Stars](https://empslocal.ex.ac.uk/AWESoMeStars/) at the University of Exeter during the summer between my 3rd and 4th years there. I worked under Prof. Sean Matt and Dr. Adam Finley to obtain a direct measurement of the angular momentum loss rate of the Sun using data from the *Wind* spacecraft. My specific role was to analyse the data to produce the measurement with guidance from the others on the team. The results were written up by Adam and published in the Astrophysical Journal Letters as [*Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft*](https://arxiv.org/abs/1910.10177).
 
+The information on this page is from the report which I wrote detailing the work I did personally. To read a full discussion of the science, please refer to the paper itself.
+
 ## Introduction
 
 The Sun is the closest star to us, the only one whose stellar wind is directly measurable. Our knowledge of our star is used as a reference for how we expect other stars in the universe to behave. It is difficult to understand a process in other stars if it is not first understood in the Sun.
@@ -59,10 +61,6 @@ The magnetisation parameter can be used to obtain the average alfvén radius:
 \end{equation}
 
 where $$K_o=0.33$$ and $$m_o=0.371$$ (Finley and Matt, 2018) which then allows the torque due to the solar wind to be calculated as
-
-\begin{equation}
-\tau = \dot{M}\Omega_*R_*^2 \left( \frac{\langle R_A \rangle}{R_*} \right) ^2.
-\end{equation}
 
 $$
 \tau = \dot{M}\Omega_*R_*^2 \left( \frac{\langle R_A \rangle}{R_*} \right) ^2.
@@ -128,7 +126,35 @@ Averages are taken after calculations with the values were made at the 2 minute 
 
 <p align="center">
   <figure><img src="assets/img/solar/MassLoss.png" alt="MassLoss.png"/>
-    <figcaption><b>Figure 2:</b> Mass flux calculated using equation (5). Proton and alpha contributions are plotted in blue and red respectively, with the total mass flux in dashed black.The solid black line is a 13 CR running average of this total. Teal is the open flux, which reflects the solar activity level.</figcaption></figure>
+    <figcaption><b>Figure 2:</b> Mass flux calculated using the equation for $$\dot{M}$$ shown above. Proton and alpha contributions are plotted in blue and red respectively, with the total mass flux in dashed black.The solid black line is a 13 CR running average of this total. Teal is the open flux, which reflects the solar activity level.</figcaption></figure>
 </p>
 
+The global mass flux is shown in Figure 2. The blue and red lines represent the mass flux in the proton and alpha particles respectively. Their total is plotted in dashed black, while solid black shows a smoothed 13 CR average. The open flux, shown in teal, is representative of solar activity, being greater at solar maxima. The alpha contribution shows a clear correlation with solar activity while the protons show a much more complicated relationship. The mass loss of the Sun has been plotted before and so can be compared to determine whether the data is being handled correctly. The mass flux is calculated from values which are measured reliably by most spacecraft, so results should be similar. Figure 1 in Finley et al., 2018 shows the mass flux from ACE and *Ulysses* spacecrafts. From Figure 2, it is clear that the majority of the mass flux is due to the protons.
 
+### Azimuthal Velocities
+
+<p align="center">
+  <figure><img src="assets/img/solar/Velocities.png" alt="Velocities.png"/>
+    <figcaption><b>Figure 3:</b> The azimuthal velocities ($$v_t$$) of protons and alpha particles in the solar wind, shown in blue and red respectively. Velocities have been weighted by number density. </figcaption></figure>
+</p>
+
+The azimuthal velocities ($$v_t$$) of protons and alpha particles are shown in Figure 3 in blue and red respectively. Each point represents the average azimuthal velocity in that Carrington rotation, weighted by number density using 
+$$
+v_t=\frac{\langle v_t \rho \rangle_{CR}}{\langle \rho \rangle_{CR}}.
+$$
+The azimuthal velocity represents the component of velocities that carries angular momentum, therefore it is crucial to accurately measure it. However, it is often on the order of kms$$^{-1}$$, which makes it hard to separate from the 400 kms$$^{-1}$$ of the radial component. From the graph, it is evident that the azimuthal component of the wind fluctuates to a level comparable to the average value. This makes the accuracy of the measurement all the more important. Many spacecraft experience problems here, making it impossible to calculate a useful value of angular momentum flux. This issue is compounded when the spacecraft also has a pointing error, such as the *Helios* spacecraft. *Wind* does not have a pointing error, and its azimuthal velocities are good. At the time of writing, it is one of only two spacecraft which are capable of calculating a value of solar angular momentum loss, along with IMP8.
+
+## Discussion
+
+### Wind Stream Interactions
+Fast wind has been observed to contribute negative angular momentum flux, likely due to interactions with the slow wind. Slow wind is the majority of the wind, any fast wind will collide with the slow wind once far enough from the Sun. When this happens, the two winds exchange momentum; the slow wind will be accelerated in the direction of co-rotation and the fast wind will be oppositely affected. Since the fast wind is less dense than the slow wind, its acceleration will be greater.
+
+### Weak Alpha Particles
+The protons may dominate due to reduction of the alpha particles during the data analysis stage. As shown in \figref{fig:Velocities}, the velocities of the alpha particles and protons are not equal as assumed during the data analysis. The assumption that the velocities are equal is based off the error being caused by the velocities being too similar for the alpha and proton to be separated. However, this may not always be the case, and may prevent the alpha contribution being more negative. 
+
+Additionally, the assumption that the density of the alphas is 4% the density of the protons may reduce the alpha contribution more than in reality. Figure 4 shows the average number density per CR after this assumption has been used on the missing alpha particles. The lack of reliable alpha data makes comparison between proton and alpha particles using the *Wind* data difficult.
+
+<p align="center">
+  <figure><img src="assets/img/solar/Densities.png" alt="Densities.png"/>
+    <figcaption><b>Figure 4:</b> The number densities of protons (blue) and alpha particles (red) averaged over a CR after data analysis has been done. </figcaption></figure>
+</p>
