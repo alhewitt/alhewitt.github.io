@@ -12,12 +12,18 @@ Do I need more motivation to go to Mars than just that it would be awesome? Well
 
 ## Solution
 Martian soil (more formally known as regolith) contains an abundance of a chemical called perchlorate. This is toxic to humans and therefore would need to be removed from any soil destined for agriculture. Perchlorate can also be reduced into oxygen using a two-step reaction via chlorite as seen below:
-$$
-ClO_4^-+2AH_2\xrightarrow{\text{PcrABCD}}ClO_2^-+2H_2O
-$$
+
 $$
 \text{ClO}_4^-+2\text{AH}_2\xrightarrow{\text{PcrABCD}}\text{ClO}_2^-+2\text{H}_2\text{O}
 $$
+
+Reduction of perchlorate into chlorite.
+
+$$
+\text{ClO}_4^-+2\text{AH}_2\xrightarrow{\text{PcrABCD}}\text{ClO}_2^-+2\text{H}_2\text{O}
+$$
+
+
 
 ## Bioreactor
 
