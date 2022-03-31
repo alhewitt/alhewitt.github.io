@@ -1,7 +1,7 @@
 # Project Perchlorate 
 
 <p align="center">
-  <figure><img src="/assets/img/igem/T--Exeter--LogoWikiSmall.png" alt="ExeteriGEM.png"/></figure>
+  <figure><img src="/assets/img/igem/T--Exeter--LogoWikiSmall.png" alt="ExeteriGEM.png" width="30%"/></figure>
 </p>
 
 ## TL;DR
