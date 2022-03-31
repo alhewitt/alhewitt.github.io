@@ -58,12 +58,15 @@ The magnetisation parameter can be used to obtain the average alfvén radius:
 \frac{\langle R_A \rangle}{R_*} = K_o[\Upsilon_{open}]^{m_o},
 \end{equation}
 
-where $K_o=0.33$ and $m_o=0.371$ (Finley and Matt, 2018) which then allows the torque due to the solar wind to be calculated as
+where $$K_o=0.33$$ and $$m_o=0.371$$ (Finley and Matt, 2018) which then allows the torque due to the solar wind to be calculated as
 
 \begin{equation}
-\label{eq:torque}
 \tau = \dot{M}\Omega_*R_*^2 \left( \frac{\langle R_A \rangle}{R_*} \right) ^2.
 \end{equation}
+
+$$
+\tau = \dot{M}\Omega_*R_*^2 \left( \frac{\langle R_A \rangle}{R_*} \right) ^2.
+$$
 
 Here $$\Omega_*$$ is the solar rotation rate, $$2.6\times10^{-6}$$ rads$$^{-1}$$.
 
