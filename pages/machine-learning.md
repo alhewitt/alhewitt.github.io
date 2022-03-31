@@ -33,4 +33,4 @@ I then tested various models and found that a Random Forest Classifier produced 
 
 A copy of the submitted notebook can be found on [GitHub](https://github.com/alhewitt/alhewitt.github.io/blob/main/Kaggle/titanic-machine-learning-from-disaster.ipynb) and on [Kaggle](https://www.kaggle.com/code/amyhewitt/titanic-machine-learning-from-disaster/).
 
-[back](./)
+[back](https://alhewitt.github.io/)
