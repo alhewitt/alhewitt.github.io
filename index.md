@@ -14,7 +14,7 @@ I am an Astrophysics PhD student at the University of Lancaster. My work involve
 
 ## Research Experience
 
-- [Searching for Gravitational Waves from Pulsars]()
+- [Searching for Gravitational Waves from Pulsars](knownpulsarpaper.md)
   - PhD project
   - Oct 2020 -- present
   - Lancaster University
