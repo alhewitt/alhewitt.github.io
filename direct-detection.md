@@ -81,7 +81,7 @@ In order to measure the solar angular momentum flux, however, it is convenient t
 
 ### Removing Erroneous Data
 
-| Flags | their meanings |
+| Flag | Meanings |
 |---|---|
 |10 | Solar wind parameters OK - no action necessary |
 |9 | Alpha particles are relatively too cold |
