@@ -35,8 +35,6 @@
         <p class="view"><a href="{{ site.github.owner_url }}"><img src="/assets/img/github.png" alt="github.com" width="24" height="24"></a>
         <a href="https://www.kaggle.com/amyhewitt"><img src="/assets/img/kaggle.png" alt="kaggle.com" width="24" height="24"></a>
         <a href="https://uk.linkedin.com/in/amy-l-hewitt"><img src="/assets/img/linkedin.png" alt="linkedin.com" width="24" height="24"></a></p>
-        <br>
-        <br>
         {% endif %}
         
         {% if site.show_downloads %}
@@ -54,6 +52,7 @@
               <a href="{{ item.path | replace:'.md','.html' }}">{{ item.title }}</a>
               <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
             </li>
+            <br>
           {% endif %}
         {% endfor %}
       </header>
