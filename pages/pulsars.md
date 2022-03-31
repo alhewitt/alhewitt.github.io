@@ -14,4 +14,4 @@ A pulsar’s rapid rotation also causes the emission of EM radiation from their 
 
 As they are so incredibly small, often these pulses are all we can detect from them and as such, there is still a lot we don’t know about their interiors or equation of state. 
 
-[back](./)
+[back](https://alhewitt.github.io/)
