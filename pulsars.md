@@ -6,7 +6,7 @@ rank: 1
 
 # Pulsars
 
-Pulsars are the rigid, dense stellar remnants left over after a star between 1.4 and 3 solar masses goes supernova. 
+Pulsars are the rigid, dense stellar remnants left over after a star over around 8 solar masses goes supernova. 
 
 These objects spin incredibly quickly as a result of angular momentum being conserved as they go from the radius of the sun to just a few kms. Sometimes their frequencies can reach up to 100x a second, corresponding to a speed at the crust of ~10% of the speed of light. These millisecond pulsars achieve these frequencies during their lifetimes as they are sped up “recycled” by processes such as accretion. 
 
