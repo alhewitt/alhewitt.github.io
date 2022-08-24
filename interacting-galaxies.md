@@ -12,9 +12,7 @@ Test 3
 
 ## Thesis
 The thesis submitted as part of my master's degree can be read here:
-<object data="assets/pdfs/Dissertation.pdf" width="100%" height="700" type='application/pdf'>
-  Oops! Your browser doesn't support PDFs!
-  You can [download](assets/pdfs/Dissertation.pdf) it instead.
-</object>
+<object data="assets/pdfs/Dissertation.pdf" width="100%" height="700" type='application/pdf'></object>
+If this isn't showing correctly, simply [download](assets/pdfs/Dissertation.pdf) it instead.
 
 [back](https://alhewitt.github.io/)
