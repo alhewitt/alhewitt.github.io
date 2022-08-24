@@ -8,10 +8,13 @@ This project aimed to model a new system of interacting galaxies by writing a su
 
 The project was my first experience using Python and I taught myself throughout the duration. This was made easier by my previous education in C as part of my course. I worked with two other students on this project with each of us creating our own versions of the code which would model the galaxies for the majority of the project. It would have been much more time-efficient had we taken existing code and modified it for our purpose, however we chose to start from scratch in order to develop our programming skills and learn Python. In the end, the code had many flaws and there were lots we would have liked to do if we had more time, but I consider it to have been an extremely valuable learning experience.
 
-Test 2
+Test 3
 
 ## Thesis
 The thesis submitted as part of my master's degree can be read here:
-<object data="assets/pdfs/Dissertation.pdf" width="100%" height="auto" type='application/pdf'></object>
+<object data="assets/pdfs/Dissertation.pdf" width="100%" height="700" type='application/pdf'>
+  Oops! Your browser doesn't support PDFs!
+  You can [download](assets/pdfs/Dissertation.pdf) it instead.
+</object>
 
 [back](https://alhewitt.github.io/)
