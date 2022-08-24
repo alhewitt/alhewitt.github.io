@@ -8,6 +8,6 @@ This project aimed to model a new system of interacting galaxies by writing a su
 
 ## Thesis
 The thesis submitted as part of my master's degree can be read here:
-<object data="alhewitt.github.io/assets/pdfs/" width="1000" height="1000" type='application/pdf'></object>
+<object data="alhewitt.github.io/assets/pdfs/Dissertation.pdf" width="1000" height="1000" type='application/pdf'></object>
 
 [back](https://alhewitt.github.io/)
