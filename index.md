@@ -6,7 +6,7 @@ layout: default
 I am an Astrophysics PhD student at the University of Lancaster and member of the LIGO Scientific Collaboration. My work involves searching for gravitational waves from pulsars. When I'm not studying or working, I enjoy caving, hiking and climbing.
 
 ## Education
-- PhD Astrophysics at Lancaster University 
+- [PhD Astrophysics at Lancaster University ](phd-homepage.md)
   - 2020 -- present
 - MPhys Physics with Astrophysics at University of Exeter 
   - 2016 -- 2020
