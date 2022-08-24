@@ -10,6 +10,6 @@ The project was my first experience using Python and I taught myself throughout 
 
 ## Thesis
 The thesis submitted as part of my master's degree can be read here:
-<object data="assets/pdfs/Dissertation.pdf" width="100%" type='application/pdf'></object>
+<object data="assets/pdfs/Dissertation.pdf" width="100%" height="500" type='application/pdf'></object>
 
 [back](https://alhewitt.github.io/)
