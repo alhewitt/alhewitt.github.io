@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Searching for gravitational waves from pulsars
+# Searches for Gravitational Waves from Known Pulsars at Two Harmonics in the Second and Third LIGO-Virgo Observing Runs
 
 In order for an object to emit gravitational radiation, it needs to have some mass asymmetry. For example, imagine a frictionless rod submerged in water. If you rotate the rod about its long axis, you would not observe any waves. This is because it is rotationally symmetric. If you rotate the rod along another axis, however, you would expect to see waves. Pulsars are hypothesised to have some ellipticity, also referred to as “mountains” which can be caused at “birth” or during their lifetimes through processes such as accretion. Unlike Earth’s mountains they are merely a few centimetres tall!
 
