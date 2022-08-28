@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Jekyll!"
+title: "Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft"
 date: 2022-08-28
 categories:
   - Internships
@@ -8,8 +8,6 @@ tags:
   - Exeter
   - Solar
 ---
-
-# Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft
 
 ## TL;DR
 
