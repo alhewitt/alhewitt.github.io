@@ -8,6 +8,7 @@ tags:
   - Exeter
   - Solar
   - Unfinished
+classes: wide
 ---
 
 ## TL;DR
