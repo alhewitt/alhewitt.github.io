@@ -1,5 +1,14 @@
 ---
-layout: default
+title: "Searches for Gravitational Waves from Known Pulsars at Two Harmonics in the Second and Third LIGO-Virgo Observing Runs"
+date: 2022-08-28
+categories:
+  - PhD
+  - Publications
+tags:
+  - Lancaster
+  - Gravitational Waves
+  - Pulsars
+  - Unfinished
 ---
 
 # Searches for Gravitational Waves from Known Pulsars at Two Harmonics in the Second and Third LIGO-Virgo Observing Runs
@@ -14,7 +23,7 @@ The frequency of the waves are also expected to be closely linked to the pulsar 
 
 But why care? Various possible equations of state give different upper limits on the maximum deformation allowed, so measuring deformation through GW observation can help constrain the EoS. Additionally, there are other processes which may emit gravitational waves beneath the crust of the star. For example, r-waves or Rossby waves are a phenomenon which occur on Earth and are predicted to occur on pulsars, but have yet to be proven. An observation of a GW from one of these processes would give valuable information.
 
-Now I hope you can see why it might be a good idea to look for these GW signals, and that is exactly what we did. We looked at data from the O2 and O3 observing runs of LIGO-Virgo in what is an updated version of a search performed on O1 and O2 data previously. There are various types of searches. A targeted search will look for gravitational waves from known pulsars. Since we know their distance and frequency for example already, there are fewer parameters which need to be searched over, leading to a less computationally expensive and more  
+Now I hope you can see why it might be a good idea to look for these GW signals, and that is exactly what we did. We looked at data from the O2 and O3 observing runs of LIGO-Virgo in what is an updated version of a search performed on O1 and O2 data previously. There are various types of searches. A targeted search will look for gravitational waves from known pulsars. Since we know their distance and frequency for example already, there are fewer parameters which need to be searched over, leading to a less computationally expensive and more ... 
 
 GWs from 236 pulsars were searched for, with 74 of these pulsars having not been included in the previous search. 168 of these pulsars are in binary systems and 161 pulsars are millisecond pulsars. Time domain Bayesian analysis was performed on all pulsars searching for signals at 2x and both 1x and 2x the rotation frequency. In the absence of a detection, we present 95% confidence upper limits for the GW amplitude or “strain”.
 
