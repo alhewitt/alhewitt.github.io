@@ -9,6 +9,7 @@ tags:
   - Machine Learning
   - Kaggle
   - Unfinished
+classes: wide
 ---
 
 # Machine Learning
