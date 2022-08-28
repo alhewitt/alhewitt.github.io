@@ -7,6 +7,7 @@ categories:
 tags:
   - Exeter
   - Solar
+  - Unfinished
 ---
 
 ## TL;DR
