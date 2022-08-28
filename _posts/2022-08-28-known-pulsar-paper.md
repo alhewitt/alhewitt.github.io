@@ -9,6 +9,7 @@ tags:
   - Gravitational Waves
   - Pulsars
   - Unfinished
+classes: wide
 ---
 
 # Searches for Gravitational Waves from Known Pulsars at Two Harmonics in the Second and Third LIGO-Virgo Observing Runs
