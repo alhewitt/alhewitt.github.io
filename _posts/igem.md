@@ -1,8 +1,14 @@
 ---
-layout: default
+title: "Project Perchlorate - Exeter iGEM 2018"
+date: 2022-08-28
+categories:
+  - Competitions
+tags:
+  - Exeter
+  - Synthetic Biology
+  - iGEM
+  - Unfinished
 ---
-
-# Project Perchlorate 
 
 <p align="center">
   <figure><img src="/assets/img/igem/T--Exeter--LogoWikiSmall.png" alt="ExeteriGEM.png" width="30%"/></figure>
@@ -43,5 +49,3 @@ The full design process for this bioreactor is documented [here](http://2018.ige
   <figure><img src="assets/img/igem/T--Exeter--BioR100.png" alt="BioR100.png" width="30%"/>
   <figcaption><b>Figure 1:</b> The first iteration of the bioreactor.</figcaption></figure>
 </p>
-
-
