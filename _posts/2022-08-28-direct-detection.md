@@ -1,5 +1,12 @@
 ---
-layout: default
+title: "Welcome to Jekyll!"
+date: 2022-08-28
+categories:
+  - Internships
+  - Publications
+tags:
+  - Exeter
+  - Solar
 ---
 
 # Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft
