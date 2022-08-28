@@ -8,6 +8,7 @@ tags:
   - Lancaster
   - Gravitational Waves
   - Unfinished
+classes: wide
 ---
 
 # Gravitational Waves
