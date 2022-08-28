@@ -8,6 +8,7 @@ tags:
   - Exeter
   - Galaxies
   - Unfinished
+classes: wide
 ---
 
 # Modelling interacting galaxies
