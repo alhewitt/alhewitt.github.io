@@ -8,6 +8,7 @@ tags:
   - Gravitational Waves
   - Pulsars
   - Unfinished
+classes: wide
 ---
 
 # Searching for gravitational waves from pulsars.
