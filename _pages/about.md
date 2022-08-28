@@ -7,7 +7,7 @@ title: "About"
 I am an Astrophysics PhD student at the University of Lancaster and member of the LIGO Scientific Collaboration. My work involves searching for gravitational waves from pulsars. When I'm not studying or working, I enjoy caving, hiking and climbing.
 
 ## Education
-- [PhD Astrophysics at Lancaster University ](phd-homepage.md)
+- [PhD Astrophysics at Lancaster University ](https://alhewitt.github.io/phd/phd-homepage/)
   - 2020 -- present
 - MPhys Physics with Astrophysics at University of Exeter 
   - 2016 -- 2020
@@ -15,19 +15,19 @@ I am an Astrophysics PhD student at the University of Lancaster and member of th
 
 ## Research Experience
 
-- [Searching for Gravitational Waves from Pulsars](known-pulsar-paper.md)
+- [Searching for Gravitational Waves from Pulsars](https://alhewitt.github.io/phd/publications/known-pulsar-paper/)
   - PhD project
   - Oct 2020 -- present
   - Lancaster University
-- [Modelling Interacting Galaxies](interacting-galaxies.md)
+- [Modelling Interacting Galaxies](https://alhewitt.github.io/mphys/thesis/interacting-galaxies/)
   - MPhys project
   - Jan 2019 -- June 2020
   - University of Exeter
-- [Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft](_posts/2022-08-28-direct-detection.md)
+- [Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft](https://alhewitt.github.io/internships/publications/direct-detection/)
   - Summer internship with AWESoME Stars
   - June 2019 -- Sept 2019
   - University of Exeter
-- [Project Perchlorate](igem.md)
+- [Project Perchlorate](https://alhewitt.github.io/competitions/igem/)
   - Exeter iGEM (international Genetically Engineered Machines) 2018
   - June 2018 -- Oct 2018
   - University of Exeter
