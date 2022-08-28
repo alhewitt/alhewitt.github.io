@@ -1,7 +1,14 @@
 ---
-layout: default
-title: Machine Learning
-rank: 3
+title: "Machine Learning"
+date: 2022-08-28
+categories:
+  - PhD
+  - Machine Learning
+tags:
+  - Lancaster
+  - Machine Learning
+  - Kaggle
+  - Unfinished
 ---
 
 # Machine Learning
