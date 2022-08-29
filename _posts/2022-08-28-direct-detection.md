@@ -43,10 +43,6 @@ Open flux is defined as
 \phi=\int\mathbf{B}\cdot d\mathbf{s}.
 \end{equation}
 By evaluating the integral over the surface of a sphere, the open flux can be calculated using
-\begin{equation}
-\label{eq:open-flux}
-\phi_{open}=4\pi \langle R^2 |B_r|_{hr} \rangle_{27 days},
-\end{equation}
 
 $$\phi_{open}=4\pi \langle R^2 |B_r|_{hr} \rangle_{27 days}$$
 
