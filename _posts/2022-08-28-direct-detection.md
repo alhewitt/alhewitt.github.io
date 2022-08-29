@@ -11,6 +11,8 @@ tags:
 classes: wide
 ---
 
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 ## TL;DR
 
 I was lucky to be given the opportunity to work with [AWESoME Stars](https://empslocal.ex.ac.uk/AWESoMeStars/) at the University of Exeter during the summer between my 3rd and 4th years there. I worked under Prof. Sean Matt and Dr. Adam Finley to obtain a direct measurement of the angular momentum loss rate of the Sun using data from the *Wind* spacecraft. My specific role was to analyse the data to produce the measurement with guidance from the others on the team. The results were written up by Adam and published in the Astrophysical Journal Letters as [*Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft*](https://arxiv.org/abs/1910.10177).
