@@ -4,7 +4,6 @@ title: "About"
 classes: wide
 ---
 
-# About me
 I am an Astrophysics PhD student at the University of Lancaster and member of the LIGO Scientific Collaboration. My work involves searching for gravitational waves from pulsars. When I'm not studying or working, I enjoy caving, hiking and climbing.
 
 ## Education
