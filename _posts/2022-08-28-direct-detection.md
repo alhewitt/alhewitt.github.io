@@ -107,6 +107,12 @@ The removal of most alpha particle data is an issue. In order to obtain a value 
 
 ### Interplanetary Coronal Mass Ejections
 
+<figure>
+    <a href="/assets/img/solar/ICMEs.png"><img src="/assets/img/solar/ICMEs.png"></a>
+    <figcaption><b>Figure 1:</b> Number of ICMEs per Carrington rotation according to the Cane and Richardson ICME list. Periods of high ICMEs counts correspond to solar maxima (2001, 2014), while minima (1996, 2009) have very few events.</figcaption>
+</figure>
+
+
 <p align="center">
   <figure><img src="https://github.com/alhewitt/alhewitt.github.io/blob/main/assets/img/solar/ICMEs.png" alt="ICMEs.png"/>
   <figcaption><b>Figure 1:</b> Number of ICMEs per Carrington rotation according to the Cane and Richardson ICME list. Periods of high ICMEs counts correspond to solar maxima (2001, 2014), while minima (1996, 2009) have very few events.</figcaption></figure>
