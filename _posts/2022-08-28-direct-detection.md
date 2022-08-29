@@ -10,6 +10,7 @@ tags:
   - Unfinished
 toc: true
 toc_sticky: true
+toc_item: 
 header:
   teaser: /assets/img/solar/MassLoss.png
 ---
