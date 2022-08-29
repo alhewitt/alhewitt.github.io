@@ -112,12 +112,6 @@ The removal of most alpha particle data is an issue. In order to obtain a value 
     <figcaption><b>Figure 1:</b> Number of ICMEs per Carrington rotation according to the Cane and Richardson ICME list. Periods of high ICMEs counts correspond to solar maxima (2001, 2014), while minima (1996, 2009) have very few events.</figcaption>
 </figure>
 
-
-<p align="center">
-  <figure><img src="https://github.com/alhewitt/alhewitt.github.io/blob/main/assets/img/solar/ICMEs.png" alt="ICMEs.png"/>
-  <figcaption><b>Figure 1:</b> Number of ICMEs per Carrington rotation according to the Cane and Richardson ICME list. Periods of high ICMEs counts correspond to solar maxima (2001, 2014), while minima (1996, 2009) have very few events.</figcaption></figure>
-</p>
-
 The aim of this project is to obtain a value of the solar angular momentum loss due to field stresses and the ambient solar wind. Interplanetary Coronal Mass Ejections (ICMEs) are bursts of plasma originating from an event on the Sun's corona. They are expected to have little effect on the global angular momentum loss, and since they are a type of local fluctuation, they should be removed from the data. 
 
 Initially, ICMEs are removed from by placing upper limits on the particle densities and magnetic field strengths. If the proton density at a certain time exceeded this value, none of the values at that time are included in the averages. The first value attempted is a limit of 10 nT for the field and 10 m$$^{-3}$$ for the proton and alpha number densities.
@@ -136,19 +130,19 @@ Averages are taken after calculations with the values were made at the 2 minute 
 
 ## Results
 
-<p align="center">
-  <figure><img src="https://github.com/alhewitt/alhewitt.github.io/blob/main/assets/img/solar/MassLoss.png" alt="MassLoss.png"/>
-    <figcaption><b>Figure 2:</b> Mass flux calculated using the equation for (\(\dot{M}\))  shown above. Proton and alpha contributions are plotted in blue and red respectively, with the total mass flux in dashed black.The solid black line is a 13 CR running average of this total. Teal is the open flux, which reflects the solar activity level.</figcaption></figure>
-</p>
+<figure>
+    <a href="/assets/img/solar/MassLoss.png"><img src="/assets/img/solar/MassLoss.png"></a>
+    <figcaption><b>Figure 2:</b> Mass flux calculated using the equation for (\(\dot{M}\))  shown above. Proton and alpha contributions are plotted in blue and red respectively, with the total mass flux in dashed black.The solid black line is a 13 CR running average of this total. Teal is the open flux, which reflects the solar activity level.</figcaption>
+</figure>
 
 The global mass flux is shown in Figure 2. The blue and red lines represent the mass flux in the proton and alpha particles respectively. Their total is plotted in dashed black, while solid black shows a smoothed 13 CR average. The open flux, shown in teal, is representative of solar activity, being greater at solar maxima. The alpha contribution shows a clear correlation with solar activity while the protons show a much more complicated relationship. The mass loss of the Sun has been plotted before and so can be compared to determine whether the data is being handled correctly. The mass flux is calculated from values which are measured reliably by most spacecraft, so results should be similar. Figure 1 in Finley et al., 2018 shows the mass flux from ACE and *Ulysses* spacecrafts. From Figure 2, it is clear that the majority of the mass flux is due to the protons.
 
 ### Azimuthal Velocities
 
-<p align="center">
-  <figure><img src="https://github.com/alhewitt/alhewitt.github.io/blob/main/assets/img/solar/Velocities.png" alt="Velocities.png"/>
-    <figcaption><b>Figure 3:</b> The azimuthal velocities (\(v_t\)) of protons and alpha particles in the solar wind, shown in blue and red respectively. Velocities have been weighted by number density. </figcaption></figure>
-</p>
+<figure>
+    <a href="/assets/img/solar/Velocities.png"><img src="/assets/img/solar/Velocities.png"></a>
+    <figcaption><b>Figure 3:</b> The azimuthal velocities (\(v_t\)) of protons and alpha particles in the solar wind, shown in blue and red respectively. Velocities have been weighted by number density. </figcaption>
+</figure>
 
 The azimuthal velocities ($$v_t$$) of protons and alpha particles are shown in Figure 3 in blue and red respectively. Each point represents the average azimuthal velocity in that Carrington rotation, weighted by number density using 
 $$
@@ -166,7 +160,9 @@ The protons may dominate due to reduction of the alpha particles during the data
 
 Additionally, the assumption that the density of the alphas is 4% the density of the protons may reduce the alpha contribution more than in reality. Figure 4 shows the average number density per CR after this assumption has been used on the missing alpha particles. The lack of reliable alpha data makes comparison between proton and alpha particles using the *Wind* data difficult.
 
-<p align="center">
-  <figure><img src="https://github.com/alhewitt/alhewitt.github.io/blob/main/assets/img/solar/Densities.png" alt="Densities.png"/>
-    <figcaption><b>Figure 4:</b> The number densities of protons (blue) and alpha particles (red) averaged over a CR after data analysis has been done. </figcaption></figure>
-</p>
+
+<figure>
+    <a href="/assets/img/solar/Densities.png"><img src="/assets/img/solar/Densities.png"></a>
+    <figcaption><b>Figure 4:</b> The number densities of protons (blue) and alpha particles (red) averaged over a CR after data analysis has been done. </figcaption>
+</figure>
+
