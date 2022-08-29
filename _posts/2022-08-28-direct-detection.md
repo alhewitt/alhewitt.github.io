@@ -10,6 +10,8 @@ tags:
   - Unfinished
 toc: true
 toc_sticky: true
+header:
+  teaser: /assets/img/solar/MassLoss.png
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
