@@ -72,7 +72,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alhewitt"
     - label: "LinkedIn"
-      icon: "fa fa-linkedin"
+      icon: "fa fa-linkedin-square"
       url: "https://uk.linkedin.com/in/amy-l-hewitt"
 
 footer:
@@ -87,7 +87,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
     - label: "LinkedIn"
-      icon: "fa fa-linkedin"
+      icon: "fa fa-linkedin-square"
       url: "https://uk.linkedin.com/in/amy-l-hewitt"
 
 defaults:
