@@ -8,7 +8,8 @@ tags:
   - Exeter
   - Solar
   - Unfinished
-classes: wide
+toc: true
+toc_sticky: true
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
