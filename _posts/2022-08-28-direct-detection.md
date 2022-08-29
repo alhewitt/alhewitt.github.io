@@ -108,7 +108,7 @@ The removal of most alpha particle data is an issue. In order to obtain a value 
 ### Interplanetary Coronal Mass Ejections
 
 <p align="center">
-  <figure><img src="assets/img/solar/ICMEs.png" alt="ICMEs.png"/>
+  <figure><img src="https://github.com/alhewitt/alhewitt.github.io/blob/main/assets/img/solar/ICMEs.png" alt="ICMEs.png"/>
   <figcaption><b>Figure 1:</b> Number of ICMEs per Carrington rotation according to the Cane and Richardson ICME list. Periods of high ICMEs counts correspond to solar maxima (2001, 2014), while minima (1996, 2009) have very few events.</figcaption></figure>
 </p>
 
@@ -131,7 +131,7 @@ Averages are taken after calculations with the values were made at the 2 minute 
 ## Results
 
 <p align="center">
-  <figure><img src="assets/img/solar/MassLoss.png" alt="MassLoss.png"/>
+  <figure><img src="https://github.com/alhewitt/alhewitt.github.io/blob/main/assets/img/solar/MassLoss.png" alt="MassLoss.png"/>
     <figcaption><b>Figure 2:</b> Mass flux calculated using the equation for (\(M\dot\)) shown above. Proton and alpha contributions are plotted in blue and red respectively, with the total mass flux in dashed black.The solid black line is a 13 CR running average of this total. Teal is the open flux, which reflects the solar activity level.</figcaption></figure>
 </p>
 
@@ -140,7 +140,7 @@ The global mass flux is shown in Figure 2. The blue and red lines represent the 
 ### Azimuthal Velocities
 
 <p align="center">
-  <figure><img src="assets/img/solar/Velocities.png" alt="Velocities.png"/>
+  <figure><img src="https://github.com/alhewitt/alhewitt.github.io/blob/main/assets/img/solar/Velocities.png" alt="Velocities.png"/>
     <figcaption><b>Figure 3:</b> The azimuthal velocities (\(v_t\)) of protons and alpha particles in the solar wind, shown in blue and red respectively. Velocities have been weighted by number density. </figcaption></figure>
 </p>
 
@@ -161,6 +161,6 @@ The protons may dominate due to reduction of the alpha particles during the data
 Additionally, the assumption that the density of the alphas is 4% the density of the protons may reduce the alpha contribution more than in reality. Figure 4 shows the average number density per CR after this assumption has been used on the missing alpha particles. The lack of reliable alpha data makes comparison between proton and alpha particles using the *Wind* data difficult.
 
 <p align="center">
-  <figure><img src="assets/img/solar/Densities.png" alt="Densities.png"/>
+  <figure><img src="https://github.com/alhewitt/alhewitt.github.io/blob/main/assets/img/solar/Densities.png" alt="Densities.png"/>
     <figcaption><b>Figure 4:</b> The number densities of protons (blue) and alpha particles (red) averaged over a CR after data analysis has been done. </figcaption></figure>
 </p>
