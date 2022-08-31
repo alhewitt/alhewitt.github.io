@@ -1,6 +1,7 @@
 ---
 title: "Searches for Gravitational Waves from Known Pulsars at Two Harmonics in the Second and Third LIGO-Virgo Observing Runs"
 date: 2022-08-28
+permalink: /publications/o3-known-pulsar-paper
 categories:
   - PhD
   - Publications
