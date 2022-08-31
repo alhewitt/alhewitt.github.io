@@ -1,9 +1,9 @@
 ---
-title: Portfolio
+title: Publications
 layout: collection
-permalink: /portfolio/
-collection: PhD
+permalink: /publications/
+collection: Publications
 entries_layout: grid
 ---
 
-This is the portfolio page.
+This is the publications page.
