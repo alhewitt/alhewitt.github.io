@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 layout: collection
-permalink: /phd/
+permalink: /portfolio/
 collection: PhD
 entries_layout: grid
 ---
