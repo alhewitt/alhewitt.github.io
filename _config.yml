@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   detecting gravitational waves from pulsars.
 twitter_username: amyhewitt88
 github_username: alhewitt
-minimal_mistakes_skin: air
+minimal_mistakes_skin: default
 search: true
 teaser: /assets/img/teaser-default.jpg
 
