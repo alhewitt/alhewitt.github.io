@@ -11,7 +11,7 @@ tags:
   - Unfinished
 classes: wide
 header:
-  teaser: /assets/img/o3paper/h0.pdf
+  teaser: /assets/img/o3paper/h0.jpg
 ---
 
 # Searches for Gravitational Waves from Known Pulsars at Two Harmonics in the Second and Third LIGO-Virgo Observing Runs
