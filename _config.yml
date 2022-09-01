@@ -60,7 +60,7 @@ plugins:
 
 author:
   name   : "Amy L. Hewitt"
-  avatar : "/assets/img/logo.gif"
+  avatar : "/assets/img/portrait.jpg"
   bio    : "Hi! I'm an Astrophysics PhD student at the University of Lancaster, working on detecting gravitational waves from pulsars."
   links:
     - label: "Kaggle"
