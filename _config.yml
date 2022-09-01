@@ -79,7 +79,7 @@ author:
 footer:
   links:
     - label: "Kaggle"
-      icon: "fab fa-kaggle"
+      icon: "fab fa-fw fa-kaggle"
       url: "https://www.kaggle.com/amyhewitt"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -88,7 +88,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alhewitt"
     - label: "LinkedIn"
-      icon: "fa fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://uk.linkedin.com/in/amy-l-hewitt"
 
 defaults:
