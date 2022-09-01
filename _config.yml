@@ -64,7 +64,7 @@ author:
   bio    : "Hi! I'm an Astrophysics PhD student at the University of Lancaster, working on detecting gravitational waves from pulsars."
   links:
     - label: "Kaggle"
-      icon: "fab fa-kaggle"
+      icon: "fab fa-fw fa-kaggle"
       url: "https://www.kaggle.com/amyhewitt"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -73,7 +73,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alhewitt"
     - label: "LinkedIn"
-      icon: "fa fa-linkedin-square"
+      icon: "fa fa-fw fa-linkedin-square"
       url: "https://uk.linkedin.com/in/amy-l-hewitt"
 
 footer:
