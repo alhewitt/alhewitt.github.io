@@ -14,9 +14,8 @@ toc_sticky: true
 toc_item: 
 header:
   teaser: /assets/img/solar/MassLoss.png
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/img/banner.gif
+  image: /assets/img/solar/sun.jpg
+  caption: "Photo credit: [NASA](https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
