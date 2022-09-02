@@ -16,9 +16,7 @@ header:
   teaser: /assets/img/solar/MassLoss.png
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/solar/sun.jpg
-  overlay_width: 100%
-  overlay_height: auto
+  overlay_image: /assets/img/banner.gif
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
