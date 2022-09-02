@@ -2,7 +2,7 @@
 title: Publications
 layout: collection
 permalink: /publications/
-collection: Publications
+collection: publications
 entries_layout: grid
 ---
 
