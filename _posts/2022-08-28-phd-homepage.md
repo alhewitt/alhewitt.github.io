@@ -1,6 +1,7 @@
 ---
 title: "Searching for Gravitational Waves from Pulsars - PhD Homepage"
 date: 2022-08-28
+permalink: /phd/
 categories:
   - PhD
 tags:
