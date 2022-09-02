@@ -14,6 +14,9 @@ toc_sticky: true
 toc_item: 
 header:
   teaser: /assets/img/solar/MassLoss.png
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/img/solar/sun.jpg
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
