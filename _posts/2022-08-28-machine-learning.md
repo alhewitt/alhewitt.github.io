@@ -1,6 +1,7 @@
 ---
 title: "Machine Learning"
 date: 2022-08-28
+permalink: /machine-learning/
 categories:
   - PhD
   - Machine Learning
