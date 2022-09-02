@@ -1,6 +1,7 @@
 ---
 title: "Modelling Interacting Galaxies - MPhys Thesis"
 date: 2022-08-28
+permalink: /interacting-galaxies/
 categories:
   - MPhys
   - Thesis
