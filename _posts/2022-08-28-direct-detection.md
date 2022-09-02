@@ -1,6 +1,7 @@
 ---
 title: "Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft"
 date: 2022-08-28
+last_modified_at: 2022-09-02
 permalink: /publications/direct-detection/
 categories:
   - Internships
@@ -8,7 +9,6 @@ categories:
 tags:
   - Exeter
   - Solar
-  - Unfinished
 toc: true
 toc_sticky: true
 toc_item: 
