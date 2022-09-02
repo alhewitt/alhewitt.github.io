@@ -1,7 +1,7 @@
 ---
 title: "Gravitational Waves - Overview"
 date: 2022-08-28
-permalink: /overviews/pulsars
+permalink: /overviews/pulsars/
 categories:
   - PhD
   - Overviews
