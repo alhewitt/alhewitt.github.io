@@ -28,7 +28,7 @@ header:
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>A pulsar with some ellipticity emitting gravitational waves as it rotates. Credit: Graham Woan.</figcaption>
+  <figcaption>A pulsar with some ellipticity emitting gravitational waves as it rotates. <i>Credit: Graham Woan.</i></figcaption>
 </figure>
 
 In order for an object to emit gravitational radiation, it needs to have some mass asymmetry. Imagine a frictionless rod submerged in water. If you rotate the rod about its long axis, you would not observe any waves. This is because it is rotationally symmetric. If you rotate the rod along another axis, however, you would expect to see waves. Similar to this, a mass with some acceleration will create waves in space-time. Pulsars are hypothesised to have some ellipticity, also referred to as “mountains” which can be caused at “birth” or during their lifetimes through processes such as accretion. Unlike Earth’s mountains they are merely a few centimetres tall, but even that is enough to have an effect noticable on Earth.
@@ -47,7 +47,7 @@ Unfortunately, due to their incredibly small size, pulsars are difficult to obse
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Rossby waves on Earth. Image credit: <a href="[url](https://oceanservice.noaa.gov/facts/rossby-wave.html)">NASA/GSFC</a></figcaption>
+  <figcaption>Rossby waves on Earth. <i>Image credit: <a href="[url](https://oceanservice.noaa.gov/facts/rossby-wave.html)">NASA/GSFC</a></i></figcaption>
 </figure>
 
 Additionally, there are other processes which may emit gravitational waves which occur beneath the crust of the star. For example, r-waves or Rossby waves are a phenomenon which occur on Earth and are similarly predicted to occur on pulsars, but have yet to be proven. An observation of a GW from one of these processes would provide strong evidence of their existance and give valuable information on the proccesses beneath pulsar crusts.
