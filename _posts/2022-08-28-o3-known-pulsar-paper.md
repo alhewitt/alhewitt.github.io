@@ -35,10 +35,8 @@ Unfortunately, due to their incredibly small size, pulsars are difficult to obse
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Credit: [NASA/GSFC](https://oceanservice.noaa.gov/facts/rossby-wave.html)</figcaption>
+  <figcaption>Rossby waves on Earth. Image credit: <a href="[url](https://oceanservice.noaa.gov/facts/rossby-wave.html)">NASA/GSFC</a></figcaption>
 </figure>
-
-![image-right]({{ site.url }}{{ site.baseurl }}/assets/img/o3paper/rossby-wave.jpg){: .align-right}
 
 Additionally, there are other processes which may emit gravitational waves which occur beneath the crust of the star. For example, r-waves or Rossby waves are a phenomenon which occur on Earth and are similarly predicted to occur on pulsars, but have yet to be proven. An observation of a GW from one of these processes would provide strong evidence of their existance and give valuable information on the proccesses beneath pulsar crusts.
 
