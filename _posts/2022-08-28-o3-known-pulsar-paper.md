@@ -29,6 +29,8 @@ The frequency of the GWs are also expected to be closely linked to the pulsar ro
 
 Unfortunately, due to their incredibly small size, pulsars are difficult to observe directly. Often, we don't know much more about them than their distance and rotation frequency. This means there are still many questions about pulsars which we haven't yet answered. For example, there are various possible theorised equations of state (EoS) for pulsars which each give different upper limits on the maximum deformation (ellipticity) allowed. So, measuring deformation through GW observation would help constrain the EoS. 
 
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/img/o3paper/rossby-wave.jpg){: .align-right}
+
 Additionally, there are other processes which may emit gravitational waves which occur beneath the crust of the star. For example, r-waves or Rossby waves are a phenomenon which occur on Earth and are similarly predicted to occur on pulsars, but have yet to be proven. An observation of a GW from one of these processes would provide strong evidence of their existance and give valuable information on the proccesses beneath pulsar crusts.
 
 ## This search
@@ -39,7 +41,7 @@ GWs from 236 pulsars were searched for, with 74 of these pulsars having not been
 
 
 
-Here is a what I presented at EAS 2022 on this project:
+Here is what I presented at EAS 2022 on this project:
 <object data="../assets/pdfs/EAS-2022.pdf" width="1000" height="1000" type='application/pdf'></object>
 
 [back](https://alhewitt.github.io/)
