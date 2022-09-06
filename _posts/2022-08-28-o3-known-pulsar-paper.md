@@ -29,10 +29,14 @@ The frequency of the GWs are also expected to be closely linked to the pulsar ro
 
 Unfortunately, due to their incredibly small size, pulsars are difficult to observe directly. Often, we don't know much more about them than their distance and rotation frequency. This means there are still many questions about pulsars which we haven't yet answered. For example, there are various possible theorised equations of state (EoS) for pulsars which each give different upper limits on the maximum deformation (ellipticity) allowed. So, measuring deformation through GW observation would help constrain the EoS. 
 
-<figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/o3paper/rossby-wave.jpg" alt="Rossby waves on Earth">
-  <figcaption>Credit: [NASA/GSFC](https://oceanservice.noaa.gov/facts/rossby-wave.html)</caption>
-</figure> 
+{% capture fig_img %}
+![Foo]({{ "/assets/img/o3paper/rossby-wave.jpg" | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Credit: [NASA/GSFC](https://oceanservice.noaa.gov/facts/rossby-wave.html)</figcaption>
+</figure>
 
 ![image-right]({{ site.url }}{{ site.baseurl }}/assets/img/o3paper/rossby-wave.jpg){: .align-right}
 
