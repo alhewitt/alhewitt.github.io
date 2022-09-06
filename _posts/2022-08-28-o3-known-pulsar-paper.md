@@ -10,14 +10,24 @@ tags:
   - Gravitational Waves
   - Pulsars
   - Unfinished
-classes: wide
-header:
+toc: true
+toc_sticky: true
+toc_item: header:
   teaser: /assets/img/o3paper/h0.jpg
 ---
 
 **[LIGO Science Summary](https://www.ligo.org/science/Publication-O3KnownPulsars/) (first draft written by me, with improvements thanks to others in the collaboration).**
 
 ## Gravitational waves from pulsars
+
+{% capture fig_img %}
+![Foo]({{ "/assets/img/o3paper/cws.gif" | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>A pulsar with some ellipticity emitting gravitational waves as it rotates. Credit: Graham Woan.</figcaption>
+</figure>
 
 In order for an object to emit gravitational radiation, it needs to have some mass asymmetry. Imagine a frictionless rod submerged in water. If you rotate the rod about its long axis, you would not observe any waves. This is because it is rotationally symmetric. If you rotate the rod along another axis, however, you would expect to see waves. Similar to this, a mass with some acceleration will create waves in space-time. Pulsars are hypothesised to have some ellipticity, also referred to as “mountains” which can be caused at “birth” or during their lifetimes through processes such as accretion. Unlike Earth’s mountains they are merely a few centimetres tall, but even that is enough to have an effect noticable on Earth.
 
