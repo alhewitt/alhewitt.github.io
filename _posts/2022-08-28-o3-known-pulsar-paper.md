@@ -31,7 +31,7 @@ Unfortunately, due to their incredibly small size, pulsars are difficult to obse
 
 <figure class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/o3paper/rossby-wave.jpg" alt="Rossby waves on Earth">
-  <image-_caption>Credit: [NASA/GSFC](https://oceanservice.noaa.gov/facts/rossby-wave.html)</figcaption>
+  <figcaption>Credit: [NASA/GSFC](https://oceanservice.noaa.gov/facts/rossby-wave.html)</caption>
 </figure> 
 
 ![image-right]({{ site.url }}{{ site.baseurl }}/assets/img/o3paper/rossby-wave.jpg){: .align-right}
@@ -48,5 +48,3 @@ GWs from 236 pulsars were searched for, with 74 of these pulsars having not been
 
 Here is what I presented at EAS 2022 on this project:
 <object data="../assets/pdfs/EAS-2022.pdf" width="1000" height="1000" type='application/pdf'></object>
-
-[back](https://alhewitt.github.io/)
