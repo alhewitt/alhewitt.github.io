@@ -20,16 +20,6 @@ conferences_gallery:
     image_path: /assets/img/eas/EAS2022_logo.png
     image_caption: EAS 2022 (Valencia)
     alt: "EAS 2022 logo"
-feature_row:
-  - image_path: /assets/img/britgrav/BritGrav_logo.png
-    image_caption: "BritGrav 2022 (Online)"
-    alt: "BritGrav22 logo"
-    url: "https://alhewitt.github.io/presentations/britgrav22/"
-  - image_path: /assets/img/eas/EAS2022_logo.png
-    image_caption: "EAS 2022 (Valencia)"
-    alt: "EAS 2022 logo"
-    url: "https://alhewitt.github.io/presentations/eas2022/"
----
 
 The aim of my PhD project at Lancaster University is to investigate evidence for - and hopefully observe - [gravitational waves](https://alhewitt.github.io/overviews/gravitational-waves/) emitted from [pulsars](https://alhewitt.github.io/overviews/pulsars/). 
 
@@ -41,12 +31,7 @@ The aim of my PhD project at Lancaster University is to investigate evidence for
   - Astrostatistics (Online)
 
 ## Conferences
-{% include feature_row id="conferences_gallery" type="center" %}
-
-{% include feature_row %}
-
-  - [BritGrav 2022 (Online)](https://alhewitt.github.io/presentations/britgrav22/)
-  - [EAS 2022 (Valencia)](https://alhewitt.github.io/presentations/eas2022/)
+{% include gallery id="conferences_gallery" type="center" %}
   - NAM 2022 (Coventry)
 
 ## Other
