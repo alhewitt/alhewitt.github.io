@@ -1,9 +1,9 @@
 ---
-title: Publications
-layout: collection
+title: "Publications"
+date: 2022-08-28
+last_modified_at: 2022-09-07
 permalink: /publications/
-collection: publications
-entries_layout: grid
+classes: wide
 
 feature_knownpulars:
   - image_path: /assets/img/o3paper/h0.jpg
