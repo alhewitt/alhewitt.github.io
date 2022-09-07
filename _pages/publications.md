@@ -5,7 +5,7 @@ last_modified_at: 2022-09-07
 permalink: /publications/
 classes: wide
 
-feature_knownpulars:
+feature_knownpulsars:
   - image_path: /assets/img/o3paper/h0.jpg
     image_caption: ""
     alt: "Results from known pulsar paper."
@@ -24,8 +24,6 @@ feature_solar:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-
-This is the publications page.
 
 {% include feature_row %}
 
