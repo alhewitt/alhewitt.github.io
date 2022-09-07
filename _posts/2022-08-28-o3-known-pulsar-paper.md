@@ -17,8 +17,11 @@ classes: wide
 header:
   teaser: /assets/img/o3paper/h0.jpg
 ---
-
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 **[LIGO Science Summary](https://www.ligo.org/science/Publication-O3KnownPulsars/) (first draft written by me, with improvements thanks to others in the collaboration).**
+
+Below I will describe in brief the main points of the paper published [here](https://ui.adsabs.harvard.edu/abs/2022ApJ...935....1A/abstract). Please see the paper for full details, as here I will focus on the parts of the paper which I personally was involved in.
 
 ## Gravitational waves from pulsars
 
@@ -57,7 +60,9 @@ Additionally, there are other processes which may emit gravitational waves which
 </figure>
 Now I hope you can see why it might be a good idea to look for these GW signals, and that is exactly what we did. We looked at data from the O2 and O3 (meaning second and third) observing runs of LIGO-Virgo in what is an updated version of a search performed on O1 and O2 data previously. There are various types of searches. A targeted search will look for gravitational waves from known pulsars. Since we know their distance and frequency for example already, there are fewer parameters which need to be searched over, leading to a less computationally expensive and more sensitive search than other methods. For example, an all-sky search looks for signals over a wide range of parameters in all sky directions while directed searches look for signals in small sky regions where it is believed likely for a pulsar to exist.
 
-GWs from 236 pulsars were searched for, with 74 of these pulsars having not been included in the [previous search](https://iopscience.iop.org/article/10.3847/1538-4357/ab20cb) using O1 and O2 data. 168 of these pulsars are in binary systems and 161 pulsars are millisecond pulsars. Time domain Bayesian analysis was performed on all pulsars searching for signals at 2x and both 1x and 2x the rotation frequency. In the absence of a detection, we present 95% confidence upper limits for the GW amplitude or “strain” seen in the image below.
+GWs from 236 pulsars were searched for, with 74 of these pulsars having not been included in the [previous search](https://iopscience.iop.org/article/10.3847/1538-4357/ab20cb) using O1 and O2 data. 168 of these pulsars are in binary systems and 161 pulsars are millisecond pulsars. Time domain Bayesian analysis was performed on all pulsars searching for signals at 2x and both 1x and 2x the rotation frequency. In the absence of a detection, we present 95% confidence upper limits for the GW amplitude or “strain”.
+
+## Results
 {% capture fig_img %}
 ![Foo]({{ "/assets/img/o3paper/h0.jpg" | relative_url }})
 {% endcapture %}
@@ -65,8 +70,16 @@ GWs from 236 pulsars were searched for, with 74 of these pulsars having not been
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
   <figcaption>The 95% confidence upper limits on gravitational wave strain from this search are represented as blue stars. Also included are the spin-down limits shown as grey triangles and the sensitivity estimate of the detector in pink. 23 pulsars surpassed their spin-downs meaning new limits are being placed on pulsar ellipticities.</figcaption>
 </figure>
+The image above shows the main results of the paper. On the y-axis we have $$h_0$$ which represents the strain sentisivity, or gravitational wave amplitude. On the x-axis is the frequency of the gravitational wave, which in this case is twice the frequency of the pulsar. The blue stars represent the 95% confidence upper limits on GW amplitude, $$h_0^{95%}$$ for each pulsar produced in this study. The spin-down limits for each pulsar are also shown as grey triangles, and where the upper limit surpasses (is lower than) the spin-down limit, the result is circled in yellow. Finally, the sensitivity estimate for the detectors is overlayed in pink. 
 
+There were 23 pulsars which surpassed their spin-down limits, which means that for those pulsars we can place new upper limits of quantities such as mass quadrupole and ellipticity. For example, for the Crab pulsar (see labelled on the graph), the upper limit as a fraction of the spin-down limit is only 0.0094, meaning that less than 0.009% of its angular momentum loss can be attributed to GW emission. This corresponds to a maximum ellipticity of 7.2$$\times10^{-6}$$. 
 
+## My role
 
-Here is what I presented at EAS 2022 on this project:
-<object data="../assets/pdfs/EAS-2022.pdf" width="1000" height="1000" type='application/pdf'></object>
+I performed the Bayesian analysis search for GWs at both 1 and 2 times the pulsar rotation frequency. I performed seperate analyses for pulsars which experienced glitches (sudden temporary changes in frequency) and for pulsars which had sufficient information from observation to allow for restricted (narrow) priors on inclination and polarisation angles (rather than the default flat prior). Also, for pulsars who did not have EM observations during the entirety of O2, analyses were run using just O3 GW data. Finally, I lead the writing of the paper, with the exception of sections about F-/G-/D- statistic and 5n-vector searches as they were performed by another team. Throughout the paper writing process, I had valuable help and input from a variety of collaboration members. Hence, the full collaboration authorship on the paper.
+
+## Other links
+
+I presented this paper a number of times to the LVK and at a couple of conferences. Here are links to pdf versions of presentations I gave:
+  - [BritGrav 2022]()
+  - [EAS 2022](/assets/pdfs/EAS-2022.pdf)
