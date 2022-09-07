@@ -1,11 +1,11 @@
 main:
   - title: "Posts"
-    url: /posts/
-  - title: "Categories"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "PhD"
+    url: /phd/
+  - title: "Machine Learning"
+    url: /machine-learning/
   - title: "Publications"
     url: /publications/
+  - title: "About"
+    url: /about/
