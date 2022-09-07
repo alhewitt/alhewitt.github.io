@@ -11,6 +11,15 @@ tags:
   - Unfinished
 toc: true
 toc_sticky: true
+layouts_gallery:
+  - url: https://alhewitt.github.io/presentations/britgrav22/
+    image_path: /assets/img/britgrav/BritGrav_logo.png
+    image_caption: BritGrav 2022 (Online)
+    alt: "BritGrav22 logo"
+  - url: https://alhewitt.github.io/presentations/eas2022/
+    image_path: /assets/img/eas/EAS2022_logo.png
+    image_caption: EAS 2022 (Valencia)
+    alt: "EAS 2022 logo"
 ---
 
 The aim of my PhD project at Lancaster University is to investigate evidence for - and hopefully observe - [gravitational waves](https://alhewitt.github.io/overviews/gravitational-waves/) emitted from [pulsars](https://alhewitt.github.io/overviews/pulsars/). 
@@ -23,6 +32,7 @@ The aim of my PhD project at Lancaster University is to investigate evidence for
   - Astrostatistics (Online)
 
 ## Conferences
+{% include gallery id="layouts_gallery" %}
   - BritGrav 2022 (Online)
   - [EAS 2022 (Valencia)](https://alhewitt.github.io/presentations/eas2022/)
   - NAM 2022 (Coventry)
