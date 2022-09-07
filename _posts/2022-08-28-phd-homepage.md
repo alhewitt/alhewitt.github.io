@@ -11,7 +11,7 @@ tags:
   - Unfinished
 toc: true
 toc_sticky: true
-layouts_gallery:
+conferences_gallery:
   - url: https://alhewitt.github.io/presentations/britgrav22/
     image_path: /assets/img/britgrav/BritGrav_logo.png
     image_caption: BritGrav 2022 (Online)
@@ -32,10 +32,10 @@ The aim of my PhD project at Lancaster University is to investigate evidence for
   - Astrostatistics (Online)
 
 ## Conferences
-{% include gallery id="layouts_gallery" %}
-  - BritGrav 2022 (Online)
+{% include feature_row id="conferences_gallery" %}
+  - [BritGrav 2022 (Online)](https://alhewitt.github.io/presentations/britgrav22/)
   - [EAS 2022 (Valencia)](https://alhewitt.github.io/presentations/eas2022/)
-  - [NAM 2022 (Coventry)](https://alhewitt.github.io/presentations/britgrav22/)
+  - NAM 2022 (Coventry)
 
 ## Other
  - Observing run at Isacc Newton Telescope (INT), La Palma
