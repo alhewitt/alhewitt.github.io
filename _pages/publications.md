@@ -12,15 +12,12 @@ feature_knownpulsars:
     url: "https://alhewitt.github.io/publications/o3-known-pulsar-paper/"
     btn_label: "Read Post"
     btn_class: "btn--primary"
-    url: "https://ui.adsabs.harvard.edu/abs/2022ApJ...935....1A/abstract"
-    btn_label: "Read Paper"
-    btn_class: "btn--primary"
 feature_solar:
   - image_path: /assets/img/solar/MassLoss.png
     alt: "Results from solar angular momentum loss paper"
     title: "Direct Detection of Solar Angular Momentum Loss with the Wind Spacecraft"
     url: "https://alhewitt.github.io/publications/direct-detection/"
-    btn_label: "Read More"
+    btn_label: "Read Post"
     btn_class: "btn--primary"
 ---
 
