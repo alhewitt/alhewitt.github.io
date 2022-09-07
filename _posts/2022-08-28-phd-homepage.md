@@ -13,8 +13,6 @@ toc: true
 toc_sticky: true
 ---
 
-# Searching for gravitational waves from pulsars.
-
 The aim of my PhD project at Lancaster University is to investigate evidence for - and hopefully observe - [gravitational waves](https://alhewitt.github.io/overviews/gravitational-waves/) emitted from [pulsars](https://alhewitt.github.io/overviews/pulsars/). 
 
 ## Projects
