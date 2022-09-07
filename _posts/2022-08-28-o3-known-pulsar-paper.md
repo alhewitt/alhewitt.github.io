@@ -13,7 +13,6 @@ tags:
 toc: true
 toc_sticky: true
 toc_item: 
-classes: wide
 header:
   teaser: /assets/img/o3paper/h0.jpg
 ---
