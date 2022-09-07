@@ -10,7 +10,10 @@ feature_knownpulsars:
     alt: "Results from known pulsar paper."
     title: "Searches for Gravitational Waves from Known Pulsars at Two Harmonics in the Second and Third LIGO-Virgo Observing Runs"
     url: "https://alhewitt.github.io/publications/o3-known-pulsar-paper/"
-    btn_label: "Read More"
+    btn_label: "Read Post"
+    btn_class: "btn--primary"
+    url: "https://ui.adsabs.harvard.edu/abs/2022ApJ...935....1A/abstract"
+    btn_label: "Read Paper"
     btn_class: "btn--primary"
 feature_solar:
   - image_path: /assets/img/solar/MassLoss.png
