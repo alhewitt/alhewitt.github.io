@@ -27,6 +27,8 @@ feature_solar:
 
 This is the publications page.
 
+{% include feature_row %}
+
 {% include feature_row id="feature_knownpulsars" type="left" %}
 
 {% include feature_row id="feature_solar" type="right" %}
