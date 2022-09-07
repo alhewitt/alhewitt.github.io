@@ -35,7 +35,7 @@ The aim of my PhD project at Lancaster University is to investigate evidence for
 {% include gallery id="layouts_gallery" %}
   - BritGrav 2022 (Online)
   - [EAS 2022 (Valencia)](https://alhewitt.github.io/presentations/eas2022/)
-  - NAM 2022 (Coventry)
+  - [NAM 2022 (Coventry)](https://alhewitt.github.io/presentations/britgrav22/)
 
 ## Other
  - Observing run at Isacc Newton Telescope (INT), La Palma
