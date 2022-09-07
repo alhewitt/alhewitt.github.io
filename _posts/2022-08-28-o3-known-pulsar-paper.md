@@ -18,9 +18,10 @@ header:
 ---
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-**[LIGO Science Summary](https://www.ligo.org/science/Publication-O3KnownPulsars/) (first draft written by me, with improvements thanks to others in the collaboration).**
 
 Below I will describe in brief the main points of the paper published [here](https://ui.adsabs.harvard.edu/abs/2022ApJ...935....1A/abstract). Please see the paper for full details, as here I will focus on the parts of the paper which I personally was involved in.
+
+**[LIGO Science Summary](https://www.ligo.org/science/Publication-O3KnownPulsars/)** (first draft written by me, with improvements thanks to others in the collaboration).
 
 ## Gravitational waves from pulsars
 
