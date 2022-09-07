@@ -32,7 +32,7 @@ The aim of my PhD project at Lancaster University is to investigate evidence for
   - Astrostatistics (Online)
 
 ## Conferences
-{% include feature_row id="conferences_gallery" %}
+{% include feature_row id="conferences_gallery" type="center" %}
   - [BritGrav 2022 (Online)](https://alhewitt.github.io/presentations/britgrav22/)
   - [EAS 2022 (Valencia)](https://alhewitt.github.io/presentations/eas2022/)
   - NAM 2022 (Coventry)
