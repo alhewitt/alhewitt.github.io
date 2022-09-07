@@ -15,10 +15,10 @@ toc_sticky: true
 
 # Searching for gravitational waves from pulsars.
 
-The aim of my PhD project at Lancaster University is to investigate evidence for - and hopefully observe - [gravitational waves](/_posts/2022-08-28-gravitational-waves.md) emitted from [pulsars](/_posts/2022-08-28-pulsars.md). 
+The aim of my PhD project at Lancaster University is to investigate evidence for - and hopefully observe - [gravitational waves](https://alhewitt.github.io/overviews/gravitational-waves/) emitted from [pulsars](https://alhewitt.github.io/overviews/pulsars/). 
 
 ## Projects
-  - [Known pulsar paper](/_posts/2022-08-28-known-pulsar-paper.md) (Searches for Gravitational Waves from Known Pulsars at Two Harmonics in the Second and Third LIGO-Virgo Observing Runs)
+  - [Known pulsar paper]([/_posts/2022-08-28-known-pulsar-paper.md](https://alhewitt.github.io/publications/o3-known-pulsar-paper/)) (Searches for Gravitational Waves from Known Pulsars at Two Harmonics in the Second and Third LIGO-Virgo Observing Runs)
   - Braking index project
 
 ## Workshops
