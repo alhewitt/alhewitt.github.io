@@ -20,6 +20,10 @@ conferences_gallery:
     image_path: /assets/img/eas/EAS2022_logo.png
     image_caption: EAS 2022 (Valencia)
     alt: "EAS 2022 logo"
+header:
+  teaser: /assets/img/crab.jpg
+  image: /assets/img/phd/crab_long.png
+  caption: "Image credit: [NASA/CXC/SAO](https://www.nasa.gov/chandra/multimedia/chandra-15th-anniversary-crab-nebula.html)"
 ---
 
 The aim of my PhD project at Lancaster University is to investigate evidence for - and hopefully observe - [gravitational waves](https://alhewitt.github.io/overviews/gravitational-waves/) emitted from [pulsars](https://alhewitt.github.io/overviews/pulsars/). 
