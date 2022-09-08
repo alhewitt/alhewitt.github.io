@@ -22,7 +22,7 @@ conferences_gallery:
     alt: "EAS 2022 logo"
 header:
   teaser: /assets/img/crab.jpg
-  image: /assets/img/phd/crab_long.png
+  image: /assets/img/phd/crab_longer.png
   caption: "Image credit: [NASA/CXC/SAO](https://www.nasa.gov/chandra/multimedia/chandra-15th-anniversary-crab-nebula.html)"
 ---
 
