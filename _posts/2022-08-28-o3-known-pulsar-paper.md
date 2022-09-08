@@ -82,5 +82,5 @@ I performed the Bayesian analysis search for GWs at both 1 and 2 times the pulsa
 ## Other links
 
 I presented this paper a number of times to the LVK and at a couple of conferences. Here are links to the presentations I have given:
-  - [BritGrav 2022](https://alhewitt.github.io/presentations/britgrav22/)([pdf](/assets/pdfs/BritGrav2022.pdf))
-  - [EAS 2022](https://alhewitt.github.io/presentations/eas2022/)([pdf](/assets/pdfs/EAS-2022.pdf))
+  - [BritGrav 2022](https://alhewitt.github.io/presentations/britgrav22/) ([pdf](/assets/pdfs/BritGrav2022.pdf))
+  - [EAS 2022](https://alhewitt.github.io/presentations/eas2022/) ([pdf](/assets/pdfs/EAS-2022.pdf))
