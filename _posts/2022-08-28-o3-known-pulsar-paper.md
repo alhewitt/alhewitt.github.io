@@ -1,6 +1,7 @@
 ---
 title: "Searches for Gravitational Waves from Known Pulsars at Two Harmonics in the Second and Third LIGO-Virgo Observing Runs"
 date: 2022-08-28
+last_modified_at: 2022-09-08
 permalink: /publications/o3-known-pulsar-paper/
 categories:
   - PhD
@@ -76,7 +77,7 @@ There were 23 pulsars which surpassed their spin-down limits, which means that f
 
 ## My role
 
-I performed the Bayesian analysis search for GWs at both 1 and 2 times the pulsar rotation frequency. I performed seperate analyses for pulsars which experienced glitches (sudden temporary changes in frequency) and for pulsars which had sufficient information from observation to allow for restricted (narrow) priors on inclination and polarisation angles (rather than the default flat prior). Also, for pulsars who did not have EM observations during the entirety of O2, analyses were run using just O3 GW data. Finally, I lead the writing of the paper, with the exception of sections about *F-/G-/D- statistic* and *5n-vector* searches as they were performed by another team. Throughout the paper writing process, I had valuable help and input from a variety of collaboration members. Hence, the full collaboration authorship on the paper.
+I performed the Bayesian analysis search for GWs at both 1 and 2 times the pulsar rotation frequency. I performed seperate analyses for pulsars which experienced glitches (sudden temporary changes in frequency) and for pulsars which had sufficient information from observation to allow for restricted (narrow) priors on inclination and polarisation angles (rather than the default flat prior). Also, for pulsars who did not have EM observations during the entirety of O2, analyses were run using just O3 GW data. Finally, I lead the writing of the paper, with the exception of sections about *F-/G-/D- statistic* and *5n-vector* searches as they were performed by another group. Throughout the paper writing process, I had valuable help and input from a variety of collaboration members. Hence, the full collaboration authorship on the paper.
 
 ## Other links
 
