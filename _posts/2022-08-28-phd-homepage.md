@@ -1,5 +1,5 @@
 ---
-title: "Searching for Gravitational Waves from Pulsars - PhD Homepage"
+title: "PhD: Searching for Gravitational Waves from Pulsars"
 date: 2022-08-28
 permalink: /phd/
 categories:
@@ -34,6 +34,9 @@ The aim of my PhD project at Lancaster University is to investigate evidence for
 
 ## Workshops
   - Astrostatistics (Online)
+
+## Outreach
+  - Volunteered at Jodrell Bank Discovery Centre
 
 ## Conferences
 {% include gallery id="conferences_gallery" type="center" %}
