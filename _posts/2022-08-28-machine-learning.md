@@ -57,3 +57,8 @@ This was something I was very excited to learn as I had seen examples before and
   - **Convolutional base**: Made up of mostly convolutional layers which extract the features (i.e. colour, shape) of the image.
   - **Dense head**: Usually made up of dense layers which determine the class of the image (i.e. what the image is of).
   - **Transfer learning**: Reusing an already trained model rather than building one from scratch.
+  - **Feature extraction**:
+    -  First, filter the image for a specific feature (convolution layer),
+    -  then detect that feature within the filtered image (ReLU),
+    -  finally condense the image to enchance the feature (maximum pooling).
+  - **Maximum pooling**
