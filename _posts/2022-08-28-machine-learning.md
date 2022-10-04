@@ -44,10 +44,16 @@ I then tested various models and found that a Random Forest Classifier produced 
 
 A copy of the submitted notebook can be found on [Kaggle](https://www.kaggle.com/code/amyhewitt/titanic-machine-learning-from-disaster/).
 
-### [Intro to Deep Learning]
+### [Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning)
 This was mostly a refresher and a more in-depth look into deep learning than my [Keras](https://alhewitt.github.io/machine-learning/#keras) project above. It covered the structure of DL networks, how to use Tensorflow, early stopping, special layers such as dropout and batch normalisation, and cross-entropy. Here are (brief) summaries on each of the above terms:
   - **Deep Learning networks**: A series of hidden layers in which the program can change the weights and biases in order to improve according to a given loss function.
   - **Early stopping**: Used to prevent a model from overfitting (where the loss on the training dataset decreases but the validation loss does not/rises. It looks at the loss over time for the validation dataset. If there is not an improvement (`min_delta`) for a certain number of epochs (`patience`) it will go back to the model with the weights with the best validation loss.
   - **Dropout layer**: Another tool in the arsenal against overfitting. This removes (drops out) a fraction (`rate`) of the input units for a layer. This is a similar effect to random forest. It was like multiple smaller networks all working together to find paterns opposed to one larger one.
   - **Batch normalisation**: This can be used on slow or unstable training. It normalises the batch to have a mean of 0 and standard deviation of 1.
   - **Cross entropy**: A type of loss function that can be used for binary data (yes or no). It converts from real values to a continuous probability.
+
+### [Computer Vision](https://www.kaggle.com/learn/computer-vision)
+This was something I was very excited to learn as I had seen examples before and had always found them incredibly impressive. Here are summaries of the terms I learnt during this course:
+  - **Convolutional base**: Made up of mostly convolutional layers which extract the features (i.e. colour, shape) of the image.
+  - **Dense head**: Usually made up of dense layers which determine the class of the image (i.e. what the image is of).
+  - **Transfer learning**: Reusing an already trained model rather than building one from scratch.
