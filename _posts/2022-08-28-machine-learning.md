@@ -50,6 +50,4 @@ This was mostly a refresher and a more in-depth look into deep learning than my 
   - **Early stopping**: Used to prevent a model from overfitting (where the loss on the training dataset decreases but the validation loss does not/rises. It looks at the loss over time for the validation dataset. If there is not an improvement (`min_delta`) for a certain number of epochs (`patience`) it will go back to the model with the weights with the best validation loss.
   - **Dropout layer**: Another tool in the arsenal against overfitting. This removes (drops out) a fraction (`rate`) of the input units for a layer. This is a similar effect to random forest. It was like multiple smaller networks all working together to find paterns opposed to one larger one.
   - **Batch normalisation**: This can be used on slow or unstable training. It normalises the batch to have a mean of 0 and standard deviation of 1.
-  - **Cross entropy**: 
-
-[back](https://alhewitt.github.io/)
+  - **Cross entropy**: A type of loss function that can be used for binary data (yes or no). It converts from real values to a continuous probability.
