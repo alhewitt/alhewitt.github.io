@@ -10,7 +10,6 @@ tags:
   - Machine Learning
   - Kaggle
   - Unfinished
-classes: wide
 toc: true
 toc_sticky: true
 toc_item: 
