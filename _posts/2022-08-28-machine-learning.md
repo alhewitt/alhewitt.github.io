@@ -26,7 +26,7 @@ My second project is an introduction to deep machine learning. It follows the wa
 ## Moving on to [Kaggle](https://www.kaggle.com/amyhewitt/code)
 At this point I became aware of Kaggle, which hosts machine learning competitions and courses. On top of this, you can run code directly on their website which means I can change device without issues.
 
-### [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
+### [LESSON: Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
 I began by following the first course, Intro to Machine Learning. This tutorial walks you through using decision trees to model the price of a house based off various factors. It covers overfitting and how the maximum number of leaf nodes affects things, then introduces random forest as a method of reducing MAE (mean absolute error). In the end, my results are submitted to the competition where they recieved a score of 21217.91640 (MAE). The notebook which was submitted can be found [here](https://github.com/alhewitt/alhewitt.github.io/blob/main/Kaggle/Intro_to_Machine_Learning.ipynb). To see the certificate of completion, [click here]()
 
 ### [Titanic](https://www.kaggle.com/competitions/titanic/overview)
@@ -43,7 +43,7 @@ I then tested various models and found that a Random Forest Classifier produced 
 
 A copy of the submitted notebook can be found on [Kaggle](https://www.kaggle.com/code/amyhewitt/titanic-machine-learning-from-disaster/).
 
-### [Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning)
+### [LESSON: Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning)
 This was mostly a refresher and a more in-depth look into deep learning than my [Keras](https://alhewitt.github.io/machine-learning/#keras) project above. It covered the structure of DL networks, how to use Tensorflow, early stopping, special layers such as dropout and batch normalisation, and cross-entropy. Here are (brief) summaries on each of the above terms:
   - **Deep Learning networks**: A series of hidden layers in which the program can change the weights and biases in order to improve according to a given loss function.
   - **Early stopping**: Used to prevent a model from overfitting (where the loss on the training dataset decreases but the validation loss does not/rises. It looks at the loss over time for the validation dataset. If there is not an improvement (`min_delta`) for a certain number of epochs (`patience`) it will go back to the model with the weights with the best validation loss.
@@ -51,7 +51,7 @@ This was mostly a refresher and a more in-depth look into deep learning than my 
   - **Batch normalisation**: This can be used on slow or unstable training. It normalises the batch to have a mean of 0 and standard deviation of 1.
   - **Cross entropy**: A type of loss function that can be used for binary data (yes or no). It converts from real values to a continuous probability.
 
-### [Computer Vision](https://www.kaggle.com/learn/computer-vision)
+### [LESSON: Computer Vision](https://www.kaggle.com/learn/computer-vision)
 This was something I was very excited to learn as I had seen examples before and had always found them incredibly impressive. Here are summaries of the terms I learnt during this course:
   - **Convolutional base**: Made up of mostly convolutional layers which extract the features (i.e. colour, shape) of the image.
   - **Dense head**: Usually made up of dense layers which determine the class of the image (i.e. what the image is of).
