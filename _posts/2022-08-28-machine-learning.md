@@ -61,4 +61,7 @@ This was something I was very excited to learn as I had seen examples before and
     -  First, filter the image for a specific feature (convolution layer),
     -  then detect that feature within the filtered image (ReLU),
     -  finally condense the image to enchance the feature (maximum pooling).
-  - **Maximum pooling**
+  -  **Convolution**: Mathematically, convolution is an integral that expresses the amount of overlap of one function (kernel) as it is shifted over another function. In ML, it is similar, but the kernel is the weights.  
+  - **Feature map**: The result of the application of the filter.
+  - **Maximum pooling**: Looks at batches of activations (pixels) and replaces with the maximum in that batch (one big pixel of the maximum brightness). This has the positive effect of increasing the ratio of useful pixels to less useful zero pixels. 
+  - **Translation invariance**: When maximum pooling is applied repeatedly to an image, features close together can get lost (merged together) while features far apart stay independent. This can be useful when there might be differences in perspective or framing.
