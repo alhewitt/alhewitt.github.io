@@ -65,3 +65,8 @@ This was something I was very excited to learn as I had seen examples before and
   - **Feature map**: The result of the application of the filter.
   - **Maximum pooling**: Looks at batches of activations (pixels) and replaces with the maximum in that batch (one big pixel of the maximum brightness). This has the positive effect of increasing the ratio of useful pixels to less useful zero pixels. 
   - **Translation invariance**: When maximum pooling is applied repeatedly to an image, features close together can get lost (merged together) while features far apart stay independent. This can be useful when there might be differences in perspective or framing.
+  - **Global average pooling**: Used as an alternative to some dense layers in the head. Converts from 2D data to the 1D needed by the classifier by replacing each feature map with its global average.
+  - **Stride**: How far should the window (kernel) move at each step. This is usually 1 in the case of convolution layers so pixels are not skipped, but it is usually set higher for maximum pooling.
+  - **Padding**: How edge pixels should be handled. 
+    -  Setting `padding='same'` puts zeros around the border of the input so that the output is the same size.
+    -  Setting `padding='valid'` means the convolution window stays entirely within the input, however the output will be smaller.
