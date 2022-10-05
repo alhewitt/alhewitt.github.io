@@ -76,6 +76,13 @@ This was something I was very excited to learn as I had seen examples before and
     -  Setting `padding='valid'` means the convolution window stays entirely within the input, however the output will be smaller.
   -  **Data augmentation**: It is always good to train your model on as much data as possible. By rotating and/or adjusting the colour/contrast of images, you can create additional, fake data.
 
+
+{% capture fig_img %}
+![Foo]({{ "/assets/img/ml/header_petals.png" | relative_url }})
+{% endcapture %}
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+</figure>
 ### [COMPETITION: Petals to the Metal](https://www.kaggle.com/competitions/tpu-getting-started)
 At the end of the [computer vision](https://alhewitt.github.io/machine-learning/#course-computer-vision) course, this competition was recommended. There was a notebook aready completed which could be forked and then edited to improve the score (initially 0.04265). My edited version, which was submitted to the competition, can be found [here](https://www.kaggle.com/code/amyhewitt/create-your-first-submission). 
 
