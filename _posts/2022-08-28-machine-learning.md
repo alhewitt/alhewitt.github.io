@@ -84,7 +84,6 @@ This was something I was very excited to learn as I had seen examples before and
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
 </figure>
-
 At the end of the [computer vision](https://alhewitt.github.io/machine-learning/#course-computer-vision) course, this competition was recommended. There was a notebook aready completed which could be forked and then edited to improve the score (initially 0.04265). My edited version, which was submitted to the competition, can be found [here](https://www.kaggle.com/code/amyhewitt/create-your-first-submission). 
 
 Changes I made to improve the score:
