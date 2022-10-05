@@ -36,7 +36,7 @@ I began by following the first course, Intro to Machine Learning. This tutorial 
 
 ### [COMPETITION: Titanic](https://www.kaggle.com/competitions/titanic/overview)
 {% capture fig_img %}
-![Foo]({{ "/assets/img/ml/header_titanic.png" | relative_url }})
+![Foo]({{ "/assets/img/ml/header_titanic.jpeg" | relative_url }})
 {% endcapture %}
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
