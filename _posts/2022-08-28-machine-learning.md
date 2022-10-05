@@ -35,6 +35,12 @@ At this point I became aware of Kaggle, which hosts machine learning competition
 I began by following the first course, Intro to Machine Learning. This tutorial walks you through using decision trees to model the price of a house based off various factors. It covers overfitting and how the maximum number of leaf nodes affects things, then introduces random forest as a method of reducing MAE (mean absolute error). In the end, my results are submitted to the competition where they recieved a score of 21217.91640 (MAE). The notebook which was submitted can be found [here](https://github.com/alhewitt/alhewitt.github.io/blob/main/Kaggle/Intro_to_Machine_Learning.ipynb). To see the certificate of completion, [click here]()
 
 ### [COMPETITION: Titanic](https://www.kaggle.com/competitions/titanic/overview)
+{% capture fig_img %}
+![Foo]({{ "/assets/img/ml/header_titanic.png" | relative_url }})
+{% endcapture %}
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+</figure>
 I then decided to attempt uploading to a competition from scratch. I chose the titanic competition as it is very beginner friendly and has plenty of guides. After reading through a few attempts made by other people, I gave it a go. The competition involves predicting whether passengers died or survived based on various information like their name, ticket fare, class, age, whether they had other family on board etc. There were several missing variables which I tried to fill in rather than delete rows as there wasn't a huge amount of data to start with. 
 
 Here are some of the methods I used to fill missing values:
