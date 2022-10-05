@@ -34,7 +34,7 @@ At this point I became aware of Kaggle, which hosts machine learning competition
 ### [COURSE: Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
 I began by following the first course, Intro to Machine Learning. This tutorial walks you through using decision trees to model the price of a house based off various factors. It covers overfitting and how the maximum number of leaf nodes affects things, then introduces random forest as a method of reducing MAE (mean absolute error). In the end, my results are submitted to the competition where they recieved a score of 21217.91640 (MAE). The notebook which was submitted can be found [here](https://github.com/alhewitt/alhewitt.github.io/blob/main/Kaggle/Intro_to_Machine_Learning.ipynb). To see the certificate of completion, [click here]()
 
-### [Titanic](https://www.kaggle.com/competitions/titanic/overview)
+### [COMPETITION: Titanic](https://www.kaggle.com/competitions/titanic/overview)
 I then decided to attempt uploading to a competition from scratch. I chose the titanic competition as it is very beginner friendly and has plenty of guides. After reading through a few attempts made by other people, I gave it a go. The competition involves predicting whether passengers died or survived based on various information like their name, ticket fare, class, age, whether they had other family on board etc. There were several missing variables which I tried to fill in rather than delete rows as there wasn't a huge amount of data to start with. 
 
 Here are some of the methods I used to fill missing values:
@@ -75,3 +75,14 @@ This was something I was very excited to learn as I had seen examples before and
     -  Setting `padding='same'` puts zeros around the border of the input so that the output is the same size.
     -  Setting `padding='valid'` means the convolution window stays entirely within the input, however the output will be smaller.
   -  **Data augmentation**: It is always good to train your model on as much data as possible. By rotating and/or adjusting the colour/contrast of images, you can create additional, fake data.
+
+### [COMPETITION: Petals to the Metal](https://www.kaggle.com/competitions/tpu-getting-started)
+At the end of the [computer vision](https://alhewitt.github.io/machine-learning/#course-computer-vision) course, this competition was recommended. There was a notebook aready completed which could be forked and then edited to improve the score. My edited version which was submitted to the competition can be found [here](https://www.kaggle.com/code/amyhewitt/create-your-first-submission). 
+
+Changes I made to improve the score:
+  - Added stopper function
+  - Changed pretrained model to Xception
+  - Adjusted the training schedule
+  - Added augmentation to the dataset (before it is fed to the model), however this slows it down too much so is not activated right now
+
+The final score is ___ which is in the top __ % of people.
