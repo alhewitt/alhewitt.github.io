@@ -77,7 +77,7 @@ This was something I was very excited to learn as I had seen examples before and
   -  **Data augmentation**: It is always good to train your model on as much data as possible. By rotating and/or adjusting the colour/contrast of images, you can create additional, fake data.
 
 ### [COMPETITION: Petals to the Metal](https://www.kaggle.com/competitions/tpu-getting-started)
-At the end of the [computer vision](https://alhewitt.github.io/machine-learning/#course-computer-vision) course, this competition was recommended. There was a notebook aready completed which could be forked and then edited to improve the score. My edited version which was submitted to the competition can be found [here](https://www.kaggle.com/code/amyhewitt/create-your-first-submission). 
+At the end of the [computer vision](https://alhewitt.github.io/machine-learning/#course-computer-vision) course, this competition was recommended. There was a notebook aready completed which could be forked and then edited to improve the score (initially 0.04265). My edited version, which was submitted to the competition, can be found [here](https://www.kaggle.com/code/amyhewitt/create-your-first-submission). 
 
 Changes I made to improve the score:
   - Added stopper function
@@ -85,4 +85,10 @@ Changes I made to improve the score:
   - Adjusted the training schedule
   - Added augmentation to the dataset (before it is fed to the model), however this slows it down too much so is not activated right now
 
-The final score is ___ which is in the top __ % of people.
+The final score is 0.94012 which is 26th on the leaderboard (as of 05/10/2022).
+{% capture fig_img %}
+![Foo]({{ "/assets/img/ml/petal_score.png" | relative_url }})
+{% endcapture %}
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+</figure>
