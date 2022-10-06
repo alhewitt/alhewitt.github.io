@@ -107,7 +107,7 @@ The final score is 0.94012 which is 26th on the leaderboard (as of 05/10/2022).
 </figure>
 
 ### [COURSE: Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning)
-This course builds on the [introduction course](https://alhewitt.github.io/machine-learning/#course-intro-to-machine-learning). It covers how to prepare your data for modelling ...
+This course builds on the [introduction course](https://alhewitt.github.io/machine-learning/#course-intro-to-machine-learning). It covers how to prepare your data for modelling, how to clean up the code and methods for finding optimal parameters for the models. Here are some 
 
   - **Imputation**: Missing values must be dealt with somehow. Imputation means replaces those missing values with something like the mean or median of all the results etc. Sometimes it can be advantageous to add a new column which records whether inputation happened on that row.
   - **Categorical variable**: When the result of a variable can only be a set number of values, for example: agree, disagree, unsure. 
