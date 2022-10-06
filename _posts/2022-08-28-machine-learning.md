@@ -122,4 +122,6 @@ This course builds on the [introduction course](https://alhewitt.github.io/machi
     - `early_stopping_rounds` states how many cycles with no improvement are needed before it stops.
     - `learning_rate` is the value which the previous predictions are multiplied by before being added.
     - `n_jobs` allows for parallelisation on different cores.
-  - 
+  - **Data leakage**: When training data contains different information about the target than the data being used for predictions. This causes high performance on training sets but low scores in production. There are two main types:
+    - **Target leakage**: Where data included in the original training data contains information which will not be available at the time predictions are made. For example, some information is changed over time and then the models are trained on the data after those changes are made, but when using the model to make predictions in real time, the information will not have been changed, and will look different to what the model trained on. To avoid this, any variable updated or created after the model was trained should not be used.
+    - **Train-test contamination**: When the information used for validation affects the training process. An example is preprocessing on the whole data set and then splitting it into test and train.
