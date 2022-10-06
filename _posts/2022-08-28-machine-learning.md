@@ -32,7 +32,7 @@ My second project is an introduction to deep machine learning. It follows the wa
 At this point I became aware of Kaggle, which hosts machine learning competitions and courses. On top of this, you can run code directly on their website which means I can change device without issues.
 
 ### [COURSE: Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
-I began by following the first course, Intro to Machine Learning. This tutorial walks you through using decision trees to model the price of a house based off various factors. It covers overfitting and how the maximum number of leaf nodes affects things, then introduces random forest as a method of reducing MAE (mean absolute error). In the end, my results are submitted to the competition where they recieved a score of 21217.91640 (MAE). The notebook which was submitted can be found [here](https://github.com/alhewitt/alhewitt.github.io/blob/main/Kaggle/Intro_to_Machine_Learning.ipynb). To see the certificate of completion, [click here]()
+I began by following the first course, Intro to Machine Learning. This tutorial walks you through using decision trees to model the price of a house based off various factors. It covers overfitting and how the maximum number of leaf nodes affects things, then introduces random forest as a method of reducing MAE (mean absolute error). In the end, my results are submitted to the competition where they recieved a score of 21217.91640 (MAE). The notebook which was submitted can be found [here](https://github.com/alhewitt/alhewitt.github.io/blob/main/Kaggle/Intro_to_Machine_Learning.ipynb).
 
 ### [COMPETITION: Titanic](https://www.kaggle.com/competitions/titanic/overview)
 {% capture fig_img %}
@@ -105,3 +105,21 @@ The final score is 0.94012 which is 26th on the leaderboard (as of 05/10/2022).
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
 </figure>
+
+### [COURSE: Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning)
+This course builds on the [introduction course](https://alhewitt.github.io/machine-learning/#course-intro-to-machine-learning). It covers how to prepare your data for modelling ...
+
+  - **Imputation**: Missing values must be dealt with somehow. Imputation means replaces those missing values with something like the mean or median of all the results etc. Sometimes it can be advantageous to add a new column which records whether inputation happened on that row.
+  - **Categorical variable**: When the result of a variable can only be a set number of values, for example: agree, disagree, unsure. 
+  - **Ordinal encoding**: The method of transforming catagotical variables into integer values for better interpretation by ML models.
+  - **One-hot encoding**: Another method of dealing with catagorical variables is to give each response its own column filled with true and false values (1s and 0s).
+  - **Cardinality**: The number of unique entries of a caragorical variable. Columns with high cardinality would need many new columns to be dealt with using the one-hot method, so often ordinal encoding is used, or they are just dropped. One-hot is usually used on columns with low cardinality.
+  - **Pipeline**: Pipelines combine preprocessing and modelling steps together. They also make cross-validation easier to perform.
+  - **Cross-validation**: Running the modelling process on seperate subsets of the data, using a seperate fraction as validation each time. This produces n measures of model quality. This is useful in particular in cases where there is a limited amount of data as it accounts for random effects from a chosen validation set.
+  - **Ensemble methods**: A method which combines the result of multiple models, such as random forests where each forest is a model.
+  - **Gradient boosting**: Gradient boosting will add more and more models to an ensemble in order to reduce loss. Gradient descent is used on the loss function to determine the new parameters, which is where the name comes from. The `XGBoost` library stands for extreme gradient boosting and can be used to implement it. Some important parameters are explained below:
+    - `n_estimators` corresponds to the number of models to include usually 100-1000. 
+    - `early_stopping_rounds` states how many cycles with no improvement are needed before it stops.
+    - `learning_rate` is the value which the previous predictions are multiplied by before being added.
+    - `n_jobs` allows for parallelisation on different cores.
+  - 
