@@ -137,3 +137,8 @@ This course builds on the [Intermediate Machine Learning](https://alhewitt.githu
   - **Trend**: A long-term change in the mean of a series. When adding as a column, the shape of the trend (once known) can be used to fit more than just straight lines. For example, if it is a quadratic, you can square the time dummy.
   - **Moving average**: A way to smooth out data points so that trends can be seen. It is done by taking a mean in a window around each data point.
   - **Deterministic process**: A process which can be completely determined (not random).
+  - **Splines**: An alternative to polynomials for fitting trends. Not very good for forcasting but can help show patterns and isolate them (detrending).
+  - **Detrending**: Removing trends from data to keep it around 0.
+  - **Seasonality**: When a time series changes in a periodic fashion.
+  - **Indicators**: A feature for modelling seasonality where seasons are plotted on top of each other to identify the trend within the season. This is done by one-hotting (and dropping one). Useful for situations with fewer data points per season.
+  - **Fourier features**: Fourier analysis in mathematics is a way of breaking down functions depending on space or time into functions depending on frequency by representing it as a sum of various sinusiodal waves. In ML it is useful for situations with lots of data points per season where one-hotting indicators would be impractical.
