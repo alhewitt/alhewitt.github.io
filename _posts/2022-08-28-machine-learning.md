@@ -128,3 +128,12 @@ This course builds on the [introduction course](https://alhewitt.github.io/machi
     - **Train-test contamination**: When the information used for validation affects the training process. An example is preprocessing on the whole data set and then splitting it into test and train.
 
 
+### [COURSE: Time Series](https://www.kaggle.com/learn/time-series)
+This course builds on the [Intermediate Machine Learning](https://alhewitt.github.io/machine-learning/#course-intermediate-machine-learning) course and covers using ML to predict changes over time, such as finantial forcasts. Below are summaries of terms this course covered.
+  - **Linear regression**: Linear regression involves estimating a relationship between variables by fitting straight lines to them. The weights are sometimes called regression coefficients and the bias is called the intercept.
+  - **Time-step features**: Features that can be derived directly from the time index. For example, a dummy variable which counts the time step. This would produce a linear fit with time on the x-axis.
+  - **Lag features**: Shifting observations so the previous value is included in a new column. This produces a lag plot where observations are plotted against the previous observation.
+  - **Serial dependence**: When an observation can be predicted from pervious observations.
+  - **Trend**: A long-term change in the mean of a series. When adding as a column, the shape of the trend (once known) can be used to fit more than just straight lines. For example, if it is a quadratic, you can square the time dummy.
+  - **Moving average**: A way to smooth out data points so that trends can be seen. It is done by taking a mean in a window around each data point.
+  - **Deterministic process**: A process which can be completely determined (not random).
