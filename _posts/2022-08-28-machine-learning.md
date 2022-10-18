@@ -105,6 +105,7 @@ The final score is 0.94012 which is 26th on the leaderboard (as of 05/10/2022).
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
 </figure>
+As of 18/10/2022, this submission has been awarded (my first) bronze medal.
 
 ### [COURSE: Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning)
 This course builds on the [introduction course](https://alhewitt.github.io/machine-learning/#course-intro-to-machine-learning). It covers how to prepare your data for modelling, how to clean up the code and methods for finding optimal parameters for the models. Here are some 
@@ -125,3 +126,5 @@ This course builds on the [introduction course](https://alhewitt.github.io/machi
   - **Data leakage**: When training data contains different information about the target than the data being used for predictions. This causes high performance on training sets but low scores in production. There are two main types:
     - **Target leakage**: Where data included in the original training data contains information which will not be available at the time predictions are made. For example, some information is changed over time and then the models are trained on the data after those changes are made, but when using the model to make predictions in real time, the information will not have been changed, and will look different to what the model trained on. To avoid this, any variable updated or created after the model was trained should not be used.
     - **Train-test contamination**: When the information used for validation affects the training process. An example is preprocessing on the whole data set and then splitting it into test and train.
+
+
