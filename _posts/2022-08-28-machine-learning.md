@@ -155,5 +155,13 @@ This course builds on the [Intermediate Machine Learning](https://alhewitt.githu
   - **Component**: A component of a time series is a term in the model which when all are combined, fits the time series.
   - **Residual**: The difference between the model prediction and the real data. They represent what the model failed to learn about the target. If the residuals contain only noise, the model is complete.
   - **Hybrid forcasting**: You can use one algorithm to fit the original time series and then another to fit the residual series. They would then be added to get the overall predictions. Predictions from one model can be used as a feature of another.
-  - **Feature-transforming algorithms**: Algorithms which learn a function which takes a feature as an input and then performs operations to produce an output sreembling target values. For example: linear regresion and neural networks. They can extrapolate target values beyond training set.
-  - Target-transforming algorithms**: Algorithms which use features to group and average values in the training set to make predictions. For example, decision trees and nearest neighbours.
+  - **Feature-transforming algorithms**: Algorithms which learn a function which takes a feature as an input and then performs operations to produce an output resembling target values. For example: linear regresion and neural networks. They can extrapolate target values beyond training set.
+  - **Target-transforming algorithms**: Algorithms which use features to group and average values in the training set to make predictions. For example, decision trees and nearest neighbours.
+  - **Forcast origin**: The time at which a forecast is made, or the last time for which training data is available.
+  - **Forcast horizon**: The time for which a forcast is being made. It is often described in terms of how many time steps it is.
+  - **Lead time**: The difference between the start of the forcast horizon and the origin due to the use of lag features.
+  - **Multistep forcasting strategies**:
+    - **Multioutput model**: Use a model which gives multiple outputs naturally like linear regression and neural networks.
+    - **Direct strategy**: Train the model for each step in the forcast. One models one step ahead, the next models two steps ahead etc. This is helpful as predicting different numbers of steps ahead are different problems. 
+    - **Recursive strategy**: Train a single one-step model and use the forcasts to update the lag features for the next step. Errors in first step will propagate into next step so should not be used for long horizons.
+    - **DirRec strategy**: A combination of direct and recursive strategies. Use one model to predict the first step and then use the forcast from it as new lag features in the next model. Captures serial dependence better than direct but is prone to error propagation like recursive.
