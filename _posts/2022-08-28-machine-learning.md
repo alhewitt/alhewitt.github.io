@@ -40,7 +40,7 @@ My second project is an introduction to deep machine learning. It follows the wa
 At this point I became aware of Kaggle, which hosts machine learning competitions and courses. On top of this, you can run code directly on their website which means I can change device without issues.
 
 ### [COURSE: Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
-I began by following the first course, Intro to Machine Learning. This tutorial walks you through using decision trees to model the price of a house based off various factors. It covers overfitting and how the maximum number of leaf nodes affects things, then introduces random forest as a method of reducing MAE (mean absolute error). In the end, my results are submitted to the competition where they recieved a score of 21217.91640 (MAE). The notebook which was submitted can be found [here](https://github.com/alhewitt/alhewitt.github.io/blob/main/Kaggle/Intro_to_Machine_Learning.ipynb).
+I began by following the first course, Intro to Machine Learning. This tutorial walks you through using decision trees to model the price of a house based off various factors. It covers overfitting and how the maximum number of leaf nodes effects things, then introduces random forest as a method of reducing MAE (mean absolute error). In the end, my results are submitted to the competition where they recieved a score of 21217.91640 (MAE). The notebook which was submitted can be found [here](https://github.com/alhewitt/alhewitt.github.io/blob/main/Kaggle/Intro_to_Machine_Learning.ipynb).
 
 ### [COMPETITION: Titanic](https://www.kaggle.com/competitions/titanic/overview)
 {% capture fig_img %}
@@ -133,7 +133,7 @@ This course builds on the [introduction course](https://alhewitt.github.io/machi
     - `n_jobs` allows for parallelisation on different cores.
   - **Data leakage**: When training data contains different information about the target than the data being used for predictions. This causes high performance on training sets but low scores in production. There are two main types:
     - **Target leakage**: Where data included in the original training data contains information which will not be available at the time predictions are made. For example, some information is changed over time and then the models are trained on the data after those changes are made, but when using the model to make predictions in real time, the information will not have been changed, and will look different to what the model trained on. To avoid this, any variable updated or created after the model was trained should not be used.
-    - **Train-test contamination**: When the information used for validation affects the training process. An example is preprocessing on the whole data set and then splitting it into test and train.
+    - **Train-test contamination**: When the information used for validation effects the training process. An example is preprocessing on the whole data set and then splitting it into test and train.
 
 
 ### [COURSE: Time Series](https://www.kaggle.com/learn/time-series)
@@ -141,12 +141,19 @@ This course builds on the [Intermediate Machine Learning](https://alhewitt.githu
   - **Linear regression**: Linear regression involves estimating a relationship between variables by fitting straight lines to them. The weights are sometimes called regression coefficients and the bias is called the intercept.
   - **Time-step features**: Features that can be derived directly from the time index. For example, a dummy variable which counts the time step. This would produce a linear fit with time on the x-axis.
   - **Lag features**: Shifting observations so the previous value is included in a new column. This produces a lag plot where observations are plotted against the previous observation.
-  - **Serial dependence**: When an observation can be predicted from pervious observations.
+  - **Serial dependence**: When an observation can be predicted from pervious observations. For example, when a system can effect itself.
   - **Trend**: A long-term change in the mean of a series. When adding as a column, the shape of the trend (once known) can be used to fit more than just straight lines. For example, if it is a quadratic, you can square the time dummy.
-  - **Moving average**: A way to smooth out data points so that trends can be seen. It is done by taking a mean in a window around each data point.
+  - **Moving average**: A way to smooth out data points so that trends can be seen. It is done by taking a mean in a window around each data point. When used as a feature, should not be centred.
   - **Deterministic process**: A process which can be completely determined (not random).
   - **Splines**: An alternative to polynomials for fitting trends. Not very good for forcasting but can help show patterns and isolate them (detrending).
   - **Detrending**: Removing trends from data to keep it around 0.
   - **Seasonality**: When a time series changes in a periodic fashion.
   - **Indicators**: A feature for modelling seasonality where seasons are plotted on top of each other to identify the trend within the season. This is done by one-hotting (and dropping one). Useful for situations with fewer data points per season.
   - **Fourier features**: Fourier analysis in mathematics is a way of breaking down functions depending on space or time into functions depending on frequency by representing it as a sum of various sinusiodal waves. In ML it is useful for situations with lots of data points per season where one-hotting indicators would be impractical.
+  - **Autocorrelation**: The correlation a time series has with its lags. Only measures linear dependence.
+  - **Partial autocorrelation**: How much the correlation of a lag contributes once the effect of previous lags has been accounted for. When plotted as a correlogram, it can show which lags are helpful.
+  - **Component**: A component of a time series is a term in the model which when all are combined, fits the time series.
+  - **Residual**: The difference between the model prediction and the real data. They represent what the model failed to learn about the target. If the residuals contain only noise, the model is complete.
+  - **Hybrid forcasting**: You can use one algorithm to fit the original time series and then another to fit the residual series. They would then be added to get the overall predictions. Predictions from one model can be used as a feature of another.
+  - **Feature-transforming algorithms**: Algorithms which learn a function which takes a feature as an input and then performs operations to produce an output sreembling target values. For example: linear regresion and neural networks. They can extrapolate target values beyond training set.
+  - Target-transforming algorithms**: Algorithms which use features to group and average values in the training set to make predictions. For example, decision trees and nearest neighbours.
