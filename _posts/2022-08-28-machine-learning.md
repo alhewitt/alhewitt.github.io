@@ -165,3 +165,12 @@ This course builds on the [Intermediate Machine Learning](https://alhewitt.githu
     - **Direct strategy**: Train the model for each step in the forcast. One models one step ahead, the next models two steps ahead etc. This is helpful as predicting different numbers of steps ahead are different problems. 
     - **Recursive strategy**: Train a single one-step model and use the forcasts to update the lag features for the next step. Errors in first step will propagate into next step so should not be used for long horizons.
     - **DirRec strategy**: A combination of direct and recursive strategies. Use one model to predict the first step and then use the forcast from it as new lag features in the next model. Captures serial dependence better than direct but is prone to error propagation like recursive.
+
+[COMPETITION: STORE SALES](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)
+I have not actually submitted to this competition yet, but once I have I will discuss it here.
+
+
+[COURSE: Intro to Game AI and Reiforcement Learning](https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning)
+The next course I wanted to take was the game AI course. As someone who plays a lot of video games, it has always interested me how bots are trained to mimick human ability levels and even surpass them. I was excited to start making them myself. Below are the terms covered in this course.
+  - *Agent*: Something that can percieve its environment via sensors and then use actuators to change that environment.
+  - *Heuristic*: This gives scores to different game boards based off likelihood of fulfilling the win criterion.
