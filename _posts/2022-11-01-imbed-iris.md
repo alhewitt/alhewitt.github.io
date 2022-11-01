@@ -9636,10 +9636,7 @@ html {
   box-sizing: unset;
 }
 
-body {
-  color: unset;
-  font-family: var(--jp-ui-font-family);
-}
+body {}
 
 p {}
 
