@@ -11,6 +11,7 @@ tags:
   - Machine Learning
   - Kaggle
   - Unfinished
+classes: wide
 header:
   teaser: /assets/img/ml/ml.jpg
   image: /assets/img/ml/ml_banner.jpg
