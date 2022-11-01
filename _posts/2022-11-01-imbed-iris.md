@@ -767,7 +767,6 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .lm-TabBar-tab {
   display: flex;
   flex-direction: row;
-  box-sizing: border-box;
   overflow: hidden;
 }
 
@@ -867,12 +866,6 @@ Licensed under the Apache License, Version 2.0.
 html{
   -webkit-box-sizing:border-box;
           box-sizing:border-box; }
-
-*,
-*::before,
-*::after{
-  -webkit-box-sizing:inherit;
-          box-sizing:inherit; }
 
 body{}
 
