@@ -869,9 +869,7 @@ html{
 
 body{}
 
-p{
-  margin-top:0;
-  margin-bottom:10px; }
+p{}
 
 small{
   font-size:12px; }
@@ -9643,10 +9641,7 @@ body {
   font-family: var(--jp-ui-font-family);
 }
 
-p {
-  margin-top: unset;
-  margin-bottom: unset;
-}
+p {}
 
 small {
   font-size: unset;
