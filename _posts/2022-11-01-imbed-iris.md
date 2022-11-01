@@ -12,7 +12,6 @@ tags:
 classes: wide
 ---  
 
-<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14681,16 +14680,9 @@ $$F_1=\frac{2}{R^{-1}+P^{-1}}=2\times\frac{P\times R}{P+R}=\frac{TP}{TP+\frac{1}
 <p><strong>Support</strong> is the number of actual occurences of the class in the dataset. In other words, how many flowers of this species were in the sample.</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
+</div>
 
-     </div>
+</div>
 </div>
 </div>
 </div>
