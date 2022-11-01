@@ -12,7 +12,7 @@ tags:
   - Kaggle
   - Unfinished
 toc: false
-toc_sticky: true
+toc_sticky: false
 toc_item: 
 header:
   teaser: /assets/img/ml/ml.jpg
