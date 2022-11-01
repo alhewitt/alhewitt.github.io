@@ -10687,7 +10687,6 @@ button.jp-ToolbarButtonComponent {
   display: flex;
   align-items: center;
   text-align: center;
-  font-size: 14px;
   min-width: unset;
   min-height: unset;
 }
