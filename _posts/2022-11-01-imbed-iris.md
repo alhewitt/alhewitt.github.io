@@ -14658,12 +14658,6 @@ $$F_1=\frac{2}{R^{-1}+P^{-1}}=2\times\frac{P\times R}{P+R}=\frac{TP}{TP+\frac{1}
 <p><strong>Support</strong> is the number of actual occurences of the class in the dataset. In other words, how many flowers of this species were in the sample.</p>
 
 </div>
-</div>
-
-</div>
-</div>
-</div>
-</div>
 
 </div>
 </body>
