@@ -1,0 +1,28 @@
+---
+title: "Machine Learning"
+date: 2022-11-01
+permalink: /machine-learning/iris/
+categories:
+  - PhD
+  - Machine Learning
+tags:
+  - Lancaster
+  - Machine Learning
+  - Kaggle
+  - Unfinished
+classes: wide
+header:
+  teaser: /assets/img/ml/ml.jpg
+  image: /assets/img/ml/iris.jpg
+  
+feature_row:
+    btn_label: "View code"
+    btn_class: "btn--primary"
+---  
+
+## [Iris](https://github.com/alhewitt/backup-website/blob/main/Iris/Iris.ipynb)
+
+
+My first project is supposedly the "Hello World!" of machine learning. Following the walkthrough [here](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/), I trained several algorithms on a dataset containing Iris flower characteristic and species using stratified 10-fold cross validation. Then, the best algorithm (chosen using precision) was tested using a 20% slice of the original dataset which had been withheld from it during training. The result is the SVM (Support Vector Machines) algorithm with an accuracy of 0.97.
+
+{% include feature_row %}
