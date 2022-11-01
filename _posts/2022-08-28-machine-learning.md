@@ -11,7 +11,7 @@ tags:
   - Machine Learning
   - Kaggle
   - Unfinished
-toc: true
+toc: false
 toc_sticky: true
 toc_item: 
 header:
@@ -172,5 +172,9 @@ I have not actually submitted to this competition yet, but once I have I will di
 
 [COURSE: Intro to Game AI and Reiforcement Learning](https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning)
 The next course I wanted to take was the game AI course. As someone who plays a lot of video games, it has always interested me how bots are trained to mimick human ability levels and even surpass them. I was excited to start making them myself. Below are the terms covered in this course.
-  - *Agent*: Something that can percieve its environment via sensors and then use actuators to change that environment.
-  - *Heuristic*: This gives scores to different game boards based off likelihood of fulfilling the win criterion.
+  - **Agent**: Something that can percieve its environment via sensors and then use actuators to change that environment.
+  - **Heuristic**: This gives scores to different game boards based off likelihood of fulfilling the win criterion.
+  - **Lookahead**: Calculating the state of the board a number of moves ahead and picking the move which guarantees the best score.
+  - **Game tree**: Each layer in the tree represents valid moves given the layer before it. The board states at the end are called leaves and the path taken to them is called a branch.
+  - **Minmax**: When an opponents move is also considered. Assume a perfect opponent will minimise the score on their turn which leads to maximising and then minimising the score each alternating layer in the tree.
+  - **Alpla-bega pruning**: When reading the tree from left to right, if a branch cannot provide useful information (i.e. has a score lower than a previous branch when maximising score) the rest of that branch is no computed. This saves computation time.
