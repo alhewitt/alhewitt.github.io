@@ -32,6 +32,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .c { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment */
 .highlight .err { color: var(--jp-mirror-editor-error-color) } /* Error */
 .highlight .k { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword */
+.highlight .n { color:black;}
 .highlight .o { color: var(--jp-mirror-editor-operator-color); font-weight: bold } /* Operator */
 .highlight .p { color: var(--jp-mirror-editor-punctuation-color) } /* Punctuation */
 .highlight .ch { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment.Hashbang */
