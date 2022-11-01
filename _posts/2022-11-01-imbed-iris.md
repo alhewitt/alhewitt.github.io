@@ -878,7 +878,6 @@ body{
   text-transform:none;
   line-height:1.28581;
   letter-spacing:0;
-  font-size:14px;
   font-weight:400;
   color:#182026;
   font-family:-apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Icons16", sans-serif; }
