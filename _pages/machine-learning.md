@@ -66,7 +66,6 @@ While looking at internships that I might find interesting to do during my PhD, 
 
 ## Projects and Competitions
   
-<body>
 <div class="row">
   <div class="column">
   	<div class="container">
