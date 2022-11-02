@@ -93,14 +93,19 @@ While looking at internships that I might find interesting to do during my PhD, 
 </div>
 <div class="row">
   <div class="column">
-  </div>
-  <div class="column">
     <div class="container">
       <a href="https://alhewitt.github.io/machine-learning/petals/">
       <img class="rounded-corners" src="/assets/img/ml/petals_wallet.jpg" alt="Titanic" style="width:100%">
       <div class="bottom_centered">Petals</div>
       </a>
     </div>
+  <div class="column">
+    <div class="container">
+      <a href="https://alhewitt.github.io/machine-learning/sales/">
+      <img class="rounded-corners" src="/assets/img/ml/sales_wallet.jpg" alt="Sales" style="width:100%">
+      <div class="bottom_centered">Sales</div>
+      </a>
+    </div>  
   </div>
 </div>
 
@@ -111,26 +116,6 @@ At this point I became aware of Kaggle, which hosts machine learning competition
 
 ### [COURSE: Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
 I began by following the first course, Intro to Machine Learning. This tutorial walks you through using decision trees to model the price of a house based off various factors. It covers overfitting and how the maximum number of leaf nodes effects things, then introduces random forest as a method of reducing MAE (mean absolute error). In the end, my results are submitted to the competition where they recieved a score of 21217.91640 (MAE). The notebook which was submitted can be found [here](https://github.com/alhewitt/alhewitt.github.io/blob/main/Kaggle/Intro_to_Machine_Learning.ipynb).
-
-### [COMPETITION: Titanic](https://www.kaggle.com/competitions/titanic/overview)
-{% capture fig_img %}
-![Foo]({{ "/assets/img/ml/header_titanic.jpeg" | relative_url }})
-{% endcapture %}
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-</figure>
-I then decided to attempt uploading to a competition from scratch. I chose the titanic competition as it is very beginner friendly and has plenty of guides. After reading through a few attempts made by other people, I gave it a go. The competition involves predicting whether passengers died or survived based on various information like their name, ticket fare, class, age, whether they had other family on board etc. There were several missing variables which I tried to fill in rather than delete rows as there wasn't a huge amount of data to start with. 
-
-Here are some of the methods I used to fill missing values:
- - The cabin has a lot of missing values and there are several missing ages. I will remove the cabin column since it is unlikely to be very informative with the majority of data being missing.
-- Due to the "women and children first" order, the age may be very informative and so I did not want to remove it completely. I used averages for each title (Mr, Mrs, Miss etc) to fill in the missing ages.
-- The ticket number was be dropped as it is not informative. Cabin was majority empty values so was deleted.
-- For Embarked, I filled in the missing data using the price of the type of ticket purchased.
-- And for the missing fare, I filled in the data using the ticket type and place of embarkment.
-
-I then tested various models and found that a Random Forest Classifier produced the best results with an accuracy of 0.844 on the train data (cross validation: 0.861, 0.722, 0.833, 0.833, 0.886). My model's predictions on the test data produced a score of 0.75837 when submitted to the competition. This corresponds to the top 84%. I look forward to coming back to this project after learning more and seeing how much I can improve.
-
-A copy of the submitted notebook can be found on [Kaggle](https://www.kaggle.com/code/amyhewitt/titanic-machine-learning-from-disaster/).
 
 ### [COURSE: Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning)
 This was mostly a refresher and a more in-depth look into deep learning than my [Keras](https://alhewitt.github.io/machine-learning/#keras) project above. It covered the structure of DL networks, how to use Tensorflow, early stopping, special layers such as dropout and batch normalisation, and cross-entropy. Here are (brief) summaries on each of the above terms:
@@ -159,31 +144,6 @@ This was something I was very excited to learn as I had seen examples before and
     -  Setting `padding='same'` puts zeros around the border of the input so that the output is the same size.
     -  Setting `padding='valid'` means the convolution window stays entirely within the input, however the output will be smaller.
   -  **Data augmentation**: It is always good to train your model on as much data as possible. By rotating and/or adjusting the colour/contrast of images, you can create additional, fake data.
-
-
-### [COMPETITION: Petals to the Metal](https://www.kaggle.com/competitions/tpu-getting-started)
-{% capture fig_img %}
-![Foo]({{ "/assets/img/ml/header_petals.png" | relative_url }})
-{% endcapture %}
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-</figure>
-At the end of the [computer vision](https://alhewitt.github.io/machine-learning/#course-computer-vision) course, this competition was recommended. There was a notebook aready completed which could be forked and then edited to improve the score (initially 0.04265). My edited version, which was submitted to the competition, can be found [here](https://www.kaggle.com/code/amyhewitt/create-your-first-submission). 
-
-Changes I made to improve the score:
-  - Added stopper function
-  - Changed pretrained model to Xception
-  - Adjusted the training schedule
-  - Added augmentation to the dataset (before it is fed to the model), however this slows it down too much so is not activated right now
-
-The final score is 0.94012 which is 26th on the leaderboard (as of 05/10/2022).
-{% capture fig_img %}
-![Foo]({{ "/assets/img/ml/petal_score.png" | relative_url }})
-{% endcapture %}
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-</figure>
-As of 18/10/2022, this submission has been awarded (my first) bronze medal.
 
 ### [COURSE: Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning)
 This course builds on the [introduction course](https://alhewitt.github.io/machine-learning/#course-intro-to-machine-learning). It covers how to prepare your data for modelling, how to clean up the code and methods for finding optimal parameters for the models. Here are some 
