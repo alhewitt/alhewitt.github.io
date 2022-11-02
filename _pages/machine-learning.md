@@ -99,6 +99,7 @@ While looking at internships that I might find interesting to do during my PhD, 
       <div class="bottom_centered">Petals</div>
       </a>
     </div>
+  </div>
   <div class="column">
     <div class="container">
       <a href="https://alhewitt.github.io/machine-learning/sales/">
