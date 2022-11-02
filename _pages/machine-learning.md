@@ -18,7 +18,6 @@ header:
   caption: "Photo credit: [Conny Schneider](https://unsplash.com/@choys_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---  
 
-<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -62,10 +61,11 @@ img.rounded-corners {
 }
 </style>
 </head>
-<body>
 
 While looking at internships that I might find interesting to do during my PhD, I found several which involved machine learning. This was something I had attended talks and [workshops](https://astrostatistics.psu.edu/su21/index.html) on before but never really considered having a proper go at. I decided to start learning, choosing to focus on implementation rather than theory to begin with. This page shows my journey into the wonderful world of machine learning.
 
+## Projects and Competitions
+  
 <body>
 <div class="row">
   <div class="column">
@@ -93,10 +93,6 @@ While looking at internships that I might find interesting to do during my PhD, 
     </div>
   </div>
 </div>
-</body>
-
-
-
 
 
 ## [Iris](https://github.com/alhewitt/backup-website/blob/main/Iris/Iris.ipynb)
