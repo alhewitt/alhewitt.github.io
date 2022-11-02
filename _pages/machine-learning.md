@@ -18,7 +18,86 @@ header:
   caption: "Photo credit: [Conny Schneider](https://unsplash.com/@choys_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---  
 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+img.rounded-corners {
+  border-radius: 10px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.bottom_centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2.441em;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
 While looking at internships that I might find interesting to do during my PhD, I found several which involved machine learning. This was something I had attended talks and [workshops](https://astrostatistics.psu.edu/su21/index.html) on before but never really considered having a proper go at. I decided to start learning, choosing to focus on implementation rather than theory to begin with. This page shows my journey into the wonderful world of machine learning.
+
+<body>
+<div class="row">
+  <div class="column">
+  	<div class="container">
+      <a href="https://alhewitt.github.io/machine-learning/iris/">
+        <img class="rounded-corners" src="/assets/img/ml/iris_wallet.jpg" alt="Iris" style="width:100%">
+        <div class="bottom_centered">Iris</div>
+      </a>
+    </div>
+  </div>
+  <div class="column">
+  	<div class="container">
+      <a href="https://alhewitt.github.io/machine-learning/keras/">
+    	<img class="rounded-corners" src="/assets/img/ml/keras_wallet.jpg" alt="Diabetes" style="width:100%">
+      <div class="bottom_centered">Keras</div>
+      </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <a href="https://alhewitt.github.io/machine-learning/titanic/">
+      <img class="rounded-corners" src="/assets/img/ml/titanic_wallet.jpg" alt="Titanic" style="width:100%">
+      <div class="bottom_centered">Titanic</div>
+      </a>
+    </div>
+  </div>
+</div>
+</body>
+
+
+
+
 
 ## [Iris](https://github.com/alhewitt/backup-website/blob/main/Iris/Iris.ipynb)
 {% capture fig_img %}
