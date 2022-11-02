@@ -91,21 +91,20 @@ While looking at internships that I might find interesting to do during my PhD, 
     </div>
   </div>
 </div>
+<div class="row">
+  <div class="column">
+  </div>
+  <div class="column">
+    <div class="container">
+      <a href="https://alhewitt.github.io/machine-learning/petals/">
+      <img class="rounded-corners" src="/assets/img/ml/petals_wallet.jpg" alt="Titanic" style="width:100%">
+      <div class="bottom_centered">Petals</div>
+      </a>
+    </div>
+  </div>
+</div>
 
-
-## [Iris](https://github.com/alhewitt/backup-website/blob/main/Iris/Iris.ipynb)
-{% capture fig_img %}
-![Foo]({{ "/assets/img/ml/iris.jpg" | relative_url }})
-{% endcapture %}
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-</figure>  
-
-
-My first project is supposedly the "Hello World!" of machine learning. Following the walkthrough [here](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/), I trained several algorithms on a dataset containing Iris flower characteristic and species using stratified 10-fold cross validation. Then, the best algorithm (chosen using precision) was tested using a 20% slice of the original dataset which had been withheld from it during training. The result is the SVM (Support Vector Machines) algorithm with an accuracy of 0.97.
-
-## [Keras](https://github.com/alhewitt/backup-website/blob/main/Keras/Keras.ipynb)
-My second project is an introduction to deep machine learning. It follows the walkthrough [here](https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/). It focuses on using Keras which wraps the libraries Theano and TensorFlow. In this project, a deep neural network is trained to predict whether Pima people will have an onset of diabetes in 5 years using numerical medical information. A 4 layer sequential model is used. The input (8 nodes) and 2 hidden layers (12 and 8 nodes) use rectified linear unitactivation functions (ReLU) while the output layer uses a sigmoid function (1 node). For the loss function binary cross-entropy is used and adam is chosen for the optimiser. The result is an model with a ~77% accuracy rate. 
+## Courses
 
 ## Moving on to [Kaggle](https://www.kaggle.com/amyhewitt/code)
 At this point I became aware of Kaggle, which hosts machine learning competitions and courses. On top of this, you can run code directly on their website which means I can change device without issues.
