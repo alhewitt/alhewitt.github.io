@@ -18,7 +18,6 @@ header:
   caption: "Photo credit: [Conny Schneider](https://unsplash.com/@choys_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---  
 
-<html>
 <head>
 <style>
 * {
