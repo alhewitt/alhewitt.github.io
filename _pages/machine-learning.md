@@ -74,7 +74,7 @@ img.rounded-corners {
 </style>
 </head>
 
-While looking at internships that I might find interesting to do during my PhD, I found several involving machine learning. This was something I had attended talks and [workshops](https://astrostatistics.psu.edu/su21/index.html) on before but never really considered having a proper go at. I decided to start learning, choosing to focus on implementation rather than theory to begin with. This page shows my journey into the wonderful world of machine learning.
+While looking at internships that I might find interesting to do during my PhD, I found several involving machine learning. This was something I had attended talks and [workshops](https://astrostatistics.psu.edu/su21/index.html) on before but never really considered having a proper go at. I decided to start learning, choosing to focus on implementation rather than theory to begin with. This page contains my journey into the wonderful world of machine learning.
 
 ## Projects and Competitions
   
