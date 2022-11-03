@@ -58,6 +58,7 @@ img.rounded-corners {
   clear: both;
   display: table;
 }
+  
 </style>
 </head>
 
