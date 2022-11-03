@@ -59,6 +59,18 @@ img.rounded-corners {
   display: table;
 }
   
+@media (max-width: 650px) {
+  .bottom_centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  }
+}
+  
 </style>
 </head>
 
