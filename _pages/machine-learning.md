@@ -51,6 +51,18 @@ img.rounded-corners {
   color: white;
   
 }
+  
+@media (max-width: 650px) {
+  .bottom_centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  }
+}
 
 /* Clearfix (clear floats) */
 .row::after {
@@ -209,3 +221,6 @@ The next course I wanted to take was the game AI course. As someone who plays a 
   - **Game tree**: Each layer in the tree represents valid moves given the layer before it. The board states at the end are called leaves and the path taken to them is called a branch.
   - **Minmax**: When an opponents move is also considered. Assume a perfect opponent will minimise the score on their turn which leads to maximising and then minimising the score each alternating layer in the tree.
   - **Alpla-bega pruning**: When reading the tree from left to right, if a branch cannot provide useful information (i.e. has a score lower than a previous branch when maximising score) the rest of that branch is no computed. This saves computation time.
+
+[COURSE: Feature Engineering](https://www.kaggle.com/learn/feature-engineering)
+This course builds on the [Intermediate Machine Learning](https://alhewitt.github.io/machine-learning/#course-intermediate-machine-learning) course. 
