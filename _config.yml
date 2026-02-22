@@ -14,11 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Amy L. Hewitt
-email: a.hewitt@lancaster.ac.uk
+email: amyhewitt88@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi! I'm an Astrophysics PhD student at the University of Lancaster, working on 
-  detecting gravitational waves from pulsars.
-twitter_username: amyhewitt88
+  Hi! I'm an Information Developer at Arm with a PhD in Astrophysics aimed at detecting continuous gravitational waves from pulsars.
 github_username: alhewitt
 minimal_mistakes_skin: default
 search: true
@@ -61,14 +59,11 @@ plugins:
 author:
   name   : "Amy L. Hewitt"
   avatar : "/assets/img/portrait.jpg"
-  bio    : "Hi! I'm an Astrophysics PhD student at the University of Lancaster, working on detecting gravitational waves from pulsars."
+  bio    : "Hi! I'm an Information Developer at Arm with a PhD in Astrophysics aimed at detecting continuous gravitational waves from pulsars."
   links:
     - label: "Kaggle"
       icon: "fab fa-fw fa-kaggle"
       url: "https://www.kaggle.com/amyhewitt"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/amyhewitt88"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alhewitt"
@@ -84,9 +79,6 @@ footer:
     - label: "Kaggle"
       icon: "fab fa-fw fa-kaggle"
       url: "https://www.kaggle.com/amyhewitt"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/amyhewitt88"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alhewitt"
